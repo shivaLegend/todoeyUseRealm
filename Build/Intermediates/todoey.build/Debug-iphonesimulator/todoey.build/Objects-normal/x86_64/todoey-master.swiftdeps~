@@ -1,9 +1,9 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "0768cf3cc9d5b6e567994efa85944edf"
-build_time: [1522403132, 192069000]
+build_time: [1522488233, 367345000]
 inputs:
-  "/Users/nguyenductai/Desktop/todoey/todoey/Controllers/TodoListViewController.swift": [1522402431, 0]
+  "/Users/nguyenductai/Desktop/todoey/todoey/Controllers/TodoListViewController.swift": [1522488232, 0]
   "/Users/nguyenductai/Desktop/todoey/todoey/Data Model/Category.swift": [1522402178, 0]
-  "/Users/nguyenductai/Desktop/todoey/todoey/AppDelegate.swift": [1522403131, 0]
+  "/Users/nguyenductai/Desktop/todoey/todoey/AppDelegate.swift": [1522417252, 0]
   "/Users/nguyenductai/Desktop/todoey/todoey/Data Model/Item.swift": [1522402276, 0]
-  "/Users/nguyenductai/Desktop/todoey/todoey/Controllers/CategoryTableViewController.swift": [1522403012, 0]
+  "/Users/nguyenductai/Desktop/todoey/todoey/Controllers/CategoryTableViewController.swift": [1522486925, 0]
