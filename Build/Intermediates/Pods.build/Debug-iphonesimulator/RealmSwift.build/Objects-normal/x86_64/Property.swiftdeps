@@ -34,6 +34,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "objectClassName"]
 - !private ["s28CustomDebugStringConvertibleP", "optional"]
 - !private ["s28CustomDebugStringConvertibleP", "type"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "array"]
 - ["s23CustomStringConvertibleP", "description"]
 - !private ["s23CustomStringConvertibleP", "indexed"]
@@ -43,7 +44,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "optional"]
 - !private ["s23CustomStringConvertibleP", "rlmProperty"]
 - !private ["s23CustomStringConvertibleP", "type"]
-- ["s23CustomStringConvertibleP", ""]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "array"]
 - ["s9EquatableP", "description"]
 - !private ["s9EquatableP", "indexed"]
@@ -53,7 +54,6 @@ depends-member:
 - !private ["s9EquatableP", "optional"]
 - !private ["s9EquatableP", "rlmProperty"]
 - !private ["s9EquatableP", "type"]
-- ["s9EquatableP", ""]
 - !private ["s8HashableP", "array"]
 - !private ["s8HashableP", "description"]
 - !private ["s8HashableP", "indexed"]
@@ -183,4 +183,14 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/RealmSwift.build/unextended-module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "253ab1675ca8f34e3cba3b050dd456d0"

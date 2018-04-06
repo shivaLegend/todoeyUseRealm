@@ -42,9 +42,16 @@ class TodoListViewController: UITableViewController
     }
     //Mark: tableview
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-//        toDoItem[indexPath.row].done = !toDoItem[indexPath.row].done
-//        tableView.reloadData()
+        if let item = toDoItem?[indexPath.row] {
+            do {
+                try realm.write {
+                item.done = !item.done
+            }
+            }catch {
+                print("Selected row is error , \(error)")
+            }
+        }
+        tableView.reloadData()
         tableView.deselectRow(at: indexPath, animated: true)
     }
 //    Mark: addPressed
@@ -62,6 +69,7 @@ class TodoListViewController: UITableViewController
                     try self.realm.write {
                     let new = Item()
                     new.title = textF.text!
+                    new.date = Date()
                     currentCategory.items.append(new)
                     }
                 } catch {
@@ -82,23 +90,19 @@ class TodoListViewController: UITableViewController
     }
 }
 //Mark : Extension
-//extension TodoListViewController: UISearchBarDelegate {
-//    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-//        let request : NSFetchRequest<Item> = Item.fetchRequest()
-//        let predicate = NSPredicate.init(format: "title CONTAINS[cd] %@", searchBar.text!)
-//        request.predicate = predicate
-//        let sort = [NSSortDescriptor.init(key: "title", ascending: true)]
-//        request.sortDescriptors = sort
-//        loadData(with: request,predicate: predicate)
-//    }
-//    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-//        if searchBar.text?.count == 0
-//        {
-//            loadData()
-//            DispatchQueue.main.async {
-//                searchBar.resignFirstResponder()
-//            }
-//        }
-//    }
-//}
+extension TodoListViewController: UISearchBarDelegate {
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        toDoItem = toDoItem?.filter("title CONTAINS[cd] %@", searchBar.text!).sorted(byKeyPath: "date", ascending: true)
+        tableView.reloadData()
+    }
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if searchBar.text?.count == 0
+        {
+            loadData()
+            DispatchQueue.main.async {
+                searchBar.resignFirstResponder()
+            }
+        }
+    }
+}
 

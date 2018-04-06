@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Pods_todoey.framework/Headers",
+      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Pods_todoey.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,51 +14,51 @@
         {
           'type': 'file',
           'name': "Pods_todoey-Swift.h",
-          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Pods_todoey.framework/Headers/Pods_todoey-Swift.h"
+          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Pods_todoey.framework/Headers/Pods_todoey-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Pods_todoey.framework/Modules",
+      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Pods_todoey.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-todoey.build/module.modulemap"
+          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-todoey.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers",
+      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Realm-Swift.h",
-          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm-Swift.h"
+          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules",
+      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers",
+      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "RealmSwift-Swift.h",
-          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
         },
         {
           'type': 'file',
@@ -69,12 +69,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules",
+      'name': "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/RealmSwift.build/module.modulemap"
+          'external-contents': "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphoneos/RealmSwift.build/module.modulemap"
         }
       ]
     }

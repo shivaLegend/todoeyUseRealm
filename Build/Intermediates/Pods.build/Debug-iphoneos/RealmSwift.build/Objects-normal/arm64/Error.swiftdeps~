@@ -1,0 +1,376 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+- "~="
+provides-nominal:
+- "10RealmSwift0A0C5ErrorV"
+provides-member:
+- ["10RealmSwift0A0C", ""]
+- ["10RealmSwift0A0C5ErrorV", ""]
+- ["10RealmSwift0A0C", "Error"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "Equatable"
+- "Error"
+- "NSError"
+- !private "RLMBackupRealmConfigurationErrorKey"
+- "RLMError"
+- "RLMErrorDomain"
+- !private "RLMRealmConfiguration"
+- "Realm"
+- "_BridgedStoredNSError"
+- "~="
+depends-member:
+- !private ["s7CVarArgP", "subscript"]
+- ["SC8RLMErrorV4CodeO", "addressSpaceExhausted"]
+- ["SC8RLMErrorV4CodeO", "fail"]
+- ["SC8RLMErrorV4CodeO", "fileAccess"]
+- ["SC8RLMErrorV4CodeO", "fileExists"]
+- ["SC8RLMErrorV4CodeO", "fileFormatUpgradeRequired"]
+- ["SC8RLMErrorV4CodeO", "fileNotFound"]
+- ["SC8RLMErrorV4CodeO", "filePermissionDenied"]
+- ["SC8RLMErrorV4CodeO", "incompatibleLockFile"]
+- ["SC8RLMErrorV4CodeO", "incompatibleSyncedFile"]
+- ["SC8RLMErrorV4CodeO", "schemaMismatch"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["10RealmSwift0A0C13ConfigurationV", "fromRLMRealmConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["10Foundation13CustomNSErrorP", "Code"]
+- !private ["10Foundation13CustomNSErrorP", "RLMBackupRealmConfigurationErrorKey"]
+- ["10Foundation13CustomNSErrorP", "RLMErrorDomain"]
+- !private ["10Foundation13CustomNSErrorP", "Realm"]
+- ["10Foundation13CustomNSErrorP", ""]
+- ["10Foundation13CustomNSErrorP", "_code"]
+- ["10Foundation13CustomNSErrorP", "_domain"]
+- ["10Foundation13CustomNSErrorP", "_getEmbeddedNSError"]
+- ["10Foundation13CustomNSErrorP", "_nsError"]
+- ["10Foundation13CustomNSErrorP", "_nsErrorDomain"]
+- ["10Foundation13CustomNSErrorP", "_userInfo"]
+- ["10Foundation13CustomNSErrorP", "code"]
+- ["10Foundation13CustomNSErrorP", "errorCode"]
+- ["10Foundation13CustomNSErrorP", "errorDomain"]
+- ["10Foundation13CustomNSErrorP", "errorUserInfo"]
+- ["10Foundation13CustomNSErrorP", "hashValue"]
+- ["10Foundation13CustomNSErrorP", "init"]
+- !private ["10Foundation13CustomNSErrorP", "userInfo"]
+- !private ["10RealmSwift26CustomObjectiveCBridgeableP", "map"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "fromRLMRealmConfiguration"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "Code"]
+- ["s9EquatableP", "Configuration"]
+- ["s9EquatableP", "Error"]
+- !private ["s9EquatableP", "RLMBackupRealmConfigurationErrorKey"]
+- ["s9EquatableP", "RLMErrorDomain"]
+- !private ["s9EquatableP", "Realm"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_code"]
+- ["s9EquatableP", "_domain"]
+- ["s9EquatableP", "_getEmbeddedNSError"]
+- ["s9EquatableP", "_nsError"]
+- ["s9EquatableP", "_nsErrorDomain"]
+- ["s9EquatableP", "_userInfo"]
+- ["s9EquatableP", "addressSpaceExhausted"]
+- ["s9EquatableP", "code"]
+- ["s9EquatableP", "errorCode"]
+- ["s9EquatableP", "errorDomain"]
+- ["s9EquatableP", "errorUserInfo"]
+- ["s9EquatableP", "fail"]
+- ["s9EquatableP", "fileAccess"]
+- ["s9EquatableP", "fileExists"]
+- ["s9EquatableP", "fileFormatUpgradeRequired"]
+- ["s9EquatableP", "fileNotFound"]
+- ["s9EquatableP", "filePermissionDenied"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "incompatibleLockFile"]
+- ["s9EquatableP", "incompatibleSyncedFile"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- ["s9EquatableP", "schemaMismatch"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "userInfo"]
+- ["10RealmSwift0A0C5ErrorV", "Code"]
+- ["10RealmSwift0A0C5ErrorV", "NSError"]
+- !private ["10RealmSwift0A0C5ErrorV", "RLMBackupRealmConfigurationErrorKey"]
+- ["10RealmSwift0A0C5ErrorV", "RLMError"]
+- ["10RealmSwift0A0C5ErrorV", "RLMErrorDomain"]
+- !private ["10RealmSwift0A0C5ErrorV", "RLMRealmConfiguration"]
+- ["10RealmSwift0A0C5ErrorV", "Realm"]
+- ["10RealmSwift0A0C5ErrorV", "_code"]
+- ["10RealmSwift0A0C5ErrorV", "_domain"]
+- ["10RealmSwift0A0C5ErrorV", "_getEmbeddedNSError"]
+- ["10RealmSwift0A0C5ErrorV", "_nsError"]
+- ["10RealmSwift0A0C5ErrorV", "_nsErrorDomain"]
+- ["10RealmSwift0A0C5ErrorV", "_userInfo"]
+- ["10RealmSwift0A0C5ErrorV", "addressSpaceExhausted"]
+- ["10RealmSwift0A0C5ErrorV", "backupConfiguration"]
+- ["10RealmSwift0A0C5ErrorV", "code"]
+- ["10RealmSwift0A0C5ErrorV", "deinit"]
+- ["10RealmSwift0A0C5ErrorV", "errorCode"]
+- ["10RealmSwift0A0C5ErrorV", "errorDomain"]
+- ["10RealmSwift0A0C5ErrorV", "errorUserInfo"]
+- ["10RealmSwift0A0C5ErrorV", "fail"]
+- ["10RealmSwift0A0C5ErrorV", "fileAccess"]
+- ["10RealmSwift0A0C5ErrorV", "fileExists"]
+- ["10RealmSwift0A0C5ErrorV", "fileFormatUpgradeRequired"]
+- ["10RealmSwift0A0C5ErrorV", "fileNotFound"]
+- ["10RealmSwift0A0C5ErrorV", "filePermissionDenied"]
+- ["10RealmSwift0A0C5ErrorV", "hashValue"]
+- ["10RealmSwift0A0C5ErrorV", "incompatibleLockFile"]
+- ["10RealmSwift0A0C5ErrorV", "incompatibleSyncedFile"]
+- ["10RealmSwift0A0C5ErrorV", "init"]
+- ["10RealmSwift0A0C5ErrorV", "schemaMismatch"]
+- !private ["10RealmSwift0A0C5ErrorV", "userInfo"]
+- ["s5ErrorP", "Code"]
+- !private ["s5ErrorP", "RLMBackupRealmConfigurationErrorKey"]
+- ["s5ErrorP", "RLMErrorDomain"]
+- !private ["s5ErrorP", "Realm"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_nsError"]
+- ["s5ErrorP", "_nsErrorDomain"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "code"]
+- ["s5ErrorP", "errorCode"]
+- ["s5ErrorP", "errorDomain"]
+- ["s5ErrorP", "errorUserInfo"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "userInfo"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- ["s8HashableP", "Code"]
+- !private ["s8HashableP", "RLMBackupRealmConfigurationErrorKey"]
+- ["s8HashableP", "RLMErrorDomain"]
+- !private ["s8HashableP", "Realm"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_code"]
+- ["s8HashableP", "_domain"]
+- ["s8HashableP", "_getEmbeddedNSError"]
+- ["s8HashableP", "_nsError"]
+- ["s8HashableP", "_nsErrorDomain"]
+- ["s8HashableP", "_userInfo"]
+- ["s8HashableP", "addressSpaceExhausted"]
+- ["s8HashableP", "code"]
+- ["s8HashableP", "errorCode"]
+- ["s8HashableP", "errorDomain"]
+- ["s8HashableP", "errorUserInfo"]
+- ["s8HashableP", "fail"]
+- ["s8HashableP", "fileAccess"]
+- ["s8HashableP", "fileExists"]
+- ["s8HashableP", "fileFormatUpgradeRequired"]
+- ["s8HashableP", "fileNotFound"]
+- ["s8HashableP", "filePermissionDenied"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "incompatibleLockFile"]
+- ["s8HashableP", "incompatibleSyncedFile"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "schemaMismatch"]
+- !private ["s8HashableP", "userInfo"]
+- !private ["Sq", "map"]
+- !private ["10RealmSwift16OptionalProtocolP", "map"]
+- ["SC8RLMErrorV", "Code"]
+- !private ["SC8RLMErrorV", "code"]
+- ["s16RawRepresentableP", "addressSpaceExhausted"]
+- ["s16RawRepresentableP", "fail"]
+- ["s16RawRepresentableP", "fileAccess"]
+- ["s16RawRepresentableP", "fileExists"]
+- ["s16RawRepresentableP", "fileFormatUpgradeRequired"]
+- ["s16RawRepresentableP", "fileNotFound"]
+- ["s16RawRepresentableP", "filePermissionDenied"]
+- ["s16RawRepresentableP", "incompatibleLockFile"]
+- ["s16RawRepresentableP", "incompatibleSyncedFile"]
+- ["s16RawRepresentableP", "schemaMismatch"]
+- ["10RealmSwift0A0C", "Configuration"]
+- ["10RealmSwift0A0C", "Error"]
+- ["10RealmSwift0A0C", "NSError"]
+- !private ["10RealmSwift0A0C", "RLMBackupRealmConfigurationErrorKey"]
+- ["10RealmSwift0A0C", "RLMError"]
+- !private ["10RealmSwift0A0C", "RLMRealmConfiguration"]
+- ["10RealmSwift0A0C", "Realm"]
+- !private ["10RealmSwift0A15CollectionValueP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- ["10Foundation21_BridgedStoredNSErrorP", "Code"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "RLMBackupRealmConfigurationErrorKey"]
+- ["10Foundation21_BridgedStoredNSErrorP", "RLMErrorDomain"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "Realm"]
+- ["10Foundation21_BridgedStoredNSErrorP", ""]
+- ["10Foundation21_BridgedStoredNSErrorP", "_code"]
+- ["10Foundation21_BridgedStoredNSErrorP", "_domain"]
+- ["10Foundation21_BridgedStoredNSErrorP", "_getEmbeddedNSError"]
+- ["10Foundation21_BridgedStoredNSErrorP", "_nsError"]
+- ["10Foundation21_BridgedStoredNSErrorP", "_nsErrorDomain"]
+- ["10Foundation21_BridgedStoredNSErrorP", "_userInfo"]
+- ["10Foundation21_BridgedStoredNSErrorP", "code"]
+- ["10Foundation21_BridgedStoredNSErrorP", "errorCode"]
+- ["10Foundation21_BridgedStoredNSErrorP", "errorDomain"]
+- ["10Foundation21_BridgedStoredNSErrorP", "errorUserInfo"]
+- ["10Foundation21_BridgedStoredNSErrorP", "hashValue"]
+- ["10Foundation21_BridgedStoredNSErrorP", "init"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "userInfo"]
+- ["10Foundation18_ErrorCodeProtocolP", "addressSpaceExhausted"]
+- ["10Foundation18_ErrorCodeProtocolP", "fail"]
+- ["10Foundation18_ErrorCodeProtocolP", "fileAccess"]
+- ["10Foundation18_ErrorCodeProtocolP", "fileExists"]
+- ["10Foundation18_ErrorCodeProtocolP", "fileFormatUpgradeRequired"]
+- ["10Foundation18_ErrorCodeProtocolP", "fileNotFound"]
+- ["10Foundation18_ErrorCodeProtocolP", "filePermissionDenied"]
+- ["10Foundation18_ErrorCodeProtocolP", "incompatibleLockFile"]
+- ["10Foundation18_ErrorCodeProtocolP", "incompatibleSyncedFile"]
+- ["10Foundation18_ErrorCodeProtocolP", "schemaMismatch"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "Code"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "RLMBackupRealmConfigurationErrorKey"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "RLMErrorDomain"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "Realm"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", ""]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "_code"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "_domain"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "_getEmbeddedNSError"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "_nsError"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "_nsErrorDomain"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "_userInfo"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "code"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "errorCode"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "errorDomain"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "errorUserInfo"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "hashValue"]
+- ["10Foundation26_ObjectiveCBridgeableErrorP", "init"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "userInfo"]
+- ["10Foundation16__BridgedNSErrorP", "Code"]
+- !private ["10Foundation16__BridgedNSErrorP", "RLMBackupRealmConfigurationErrorKey"]
+- ["10Foundation16__BridgedNSErrorP", "RLMErrorDomain"]
+- !private ["10Foundation16__BridgedNSErrorP", "Realm"]
+- ["10Foundation16__BridgedNSErrorP", ""]
+- ["10Foundation16__BridgedNSErrorP", "_code"]
+- ["10Foundation16__BridgedNSErrorP", "_domain"]
+- ["10Foundation16__BridgedNSErrorP", "_getEmbeddedNSError"]
+- ["10Foundation16__BridgedNSErrorP", "_nsError"]
+- ["10Foundation16__BridgedNSErrorP", "_nsErrorDomain"]
+- ["10Foundation16__BridgedNSErrorP", "_userInfo"]
+- ["10Foundation16__BridgedNSErrorP", "code"]
+- ["10Foundation16__BridgedNSErrorP", "errorCode"]
+- ["10Foundation16__BridgedNSErrorP", "errorDomain"]
+- ["10Foundation16__BridgedNSErrorP", "errorUserInfo"]
+- ["10Foundation16__BridgedNSErrorP", "hashValue"]
+- ["10Foundation16__BridgedNSErrorP", "init"]
+- !private ["10Foundation16__BridgedNSErrorP", "userInfo"]
+depends-nominal:
+- !private "s7CVarArgP"
+- "SC8RLMErrorV4CodeO"
+- !private "s10CollectionP"
+- !private "10RealmSwift0A0C13ConfigurationV"
+- !private "s28CustomDebugStringConvertibleP"
+- "10Foundation13CustomNSErrorP"
+- !private "10RealmSwift26CustomObjectiveCBridgeableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "10RealmSwift0A0C5ErrorV"
+- "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s8HashableP"
+- !private "Sq"
+- !private "10RealmSwift16OptionalProtocolP"
+- "SC8RLMErrorV"
+- "s16RawRepresentableP"
+- "10RealmSwift0A0C"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "s8SequenceP"
+- "10Foundation21_BridgedStoredNSErrorP"
+- "10Foundation18_ErrorCodeProtocolP"
+- !private "s21_ObjectiveCBridgeableP"
+- "10Foundation26_ObjectiveCBridgeableErrorP"
+- "10Foundation16__BridgedNSErrorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nguyenductai/Desktop/todoey/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncSubscription.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphoneos/RealmSwift.build/unextended-module.modulemap"
+- "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphoneos/Realm.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c779956a43b66d23008464f9141cf664"

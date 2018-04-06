@@ -29,6 +29,7 @@ depends-top-level:
 depends-member:
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s10CollectionP", "init"]
 - !private ["s10ComparableP", "init"]
@@ -42,13 +43,14 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "SortDescriptor"]
 - ["s23CustomStringConvertibleP", "StringLiteralType"]
 - ["s23CustomStringConvertibleP", "UnicodeScalarLiteralType"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_StringLiteralType"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "ascending"]
 - ["s23CustomStringConvertibleP", "description"]
 - !private ["s23CustomStringConvertibleP", "fatalError"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "keyPath"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "init"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
@@ -58,61 +60,58 @@ depends-member:
 - !private ["s9EquatableP", "SortDescriptor"]
 - ["s9EquatableP", "StringLiteralType"]
 - ["s9EquatableP", "UnicodeScalarLiteralType"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_StringLiteralType"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "ascending"]
 - ["s9EquatableP", "description"]
 - !private ["s9EquatableP", "fatalError"]
 - ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "keyPath"]
-- ["s9EquatableP", ""]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "RLMSortDescriptor"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "SortDescriptor"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ascending"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "description"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "fatalError"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "keyPath"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
 - !private ["s26ExpressibleByStringLiteralP", "RLMSortDescriptor"]
 - !private ["s26ExpressibleByStringLiteralP", "SortDescriptor"]
 - ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
 - ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
 - !private ["s26ExpressibleByStringLiteralP", "ascending"]
 - ["s26ExpressibleByStringLiteralP", "description"]
 - !private ["s26ExpressibleByStringLiteralP", "fatalError"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "keyPath"]
-- ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "RLMSortDescriptor"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "SortDescriptor"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "ascending"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "description"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "fatalError"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "keyPath"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
-- !private ["So8NSCodingP", "init"]
-- !private ["So9NSCopyingP", "init"]
-- !private ["So21NSItemProviderReadingP", "init"]
-- !private ["So21NSItemProviderWritingP", "init"]
-- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "init"]
 - !private ["So16NSObjectProtocolP", "init"]
-- !private ["So14NSSecureCodingP", "init"]
-- !private ["So8NSStringC", "init"]
 - !private ["So17RLMSortDescriptorC", "init"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
@@ -127,6 +126,7 @@ depends-member:
 - ["10RealmSwift14SortDescriptorV", "String"]
 - ["10RealmSwift14SortDescriptorV", "StringLiteralType"]
 - ["10RealmSwift14SortDescriptorV", "UnicodeScalarLiteralType"]
+- ["10RealmSwift14SortDescriptorV", "_Default_StringLiteralType"]
 - ["10RealmSwift14SortDescriptorV", "ascending"]
 - ["10RealmSwift14SortDescriptorV", "deinit"]
 - ["10RealmSwift14SortDescriptorV", "description"]
@@ -141,20 +141,15 @@ depends-member:
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- !private ["s10_IndexableP", "init"]
-- !private ["s14_IndexableBaseP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "s23BidirectionalCollectionP"
@@ -176,15 +171,8 @@ depends-nominal:
 - !private "s8HashableP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- !private "So8NSCodingP"
-- !private "So9NSCopyingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
 - !private "So8NSObjectC"
 - !private "So16NSObjectProtocolP"
-- !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
 - !private "So17RLMSortDescriptorC"
 - !private "s26RangeReplaceableCollectionP"
 - !private "10RealmSwift0A15CollectionValueP"
@@ -196,19 +184,14 @@ depends-nominal:
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- !private "s23_BidirectionalIndexableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s26_RangeReplaceableIndexableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -272,4 +255,14 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/RealmSwift.build/unextended-module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "66d3e84864d14e0316aacf5127a45933"

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RealmSwift-Swift.h</key>
 		<data>
-		43iMC/QSwzDVLdK+u5+4IobMGik=
+		9fL0pVF0mAf553Eqx991pFs/Hu0=
 		</data>
 		<key>Headers/RealmSwift-umbrella.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		G76Ar4cKlw0LAb6RA+7L7mk3T6s=
+		p/b13woq7hqXCsqMkTGU6QGkRio=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		ZJXW2wvCa4YRUJgIjaxbqs6mgjY=
+		TOpAL4Hh1HIszhuLAhoXeuhfe2Q=
 		</data>
 		<key>Modules/RealmSwift.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		/dyw+FOJu1RsIwuvWDACiNAM4kc=
+		9CrMPrhAs5hz/bD/bc5XpEjweow=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			43iMC/QSwzDVLdK+u5+4IobMGik=
+			9fL0pVF0mAf553Eqx991pFs/Hu0=
 			</data>
 			<key>hash2</key>
 			<data>
-			36yRXorQfHm72sw41zICe1mJBs0e6kOj2Ii3d9Cqv3M=
+			r+F00SyUQGj/MHMDp7wLnpwp7Q/M+AWA63mgoEWRcik=
 			</data>
 		</dict>
 		<key>Headers/RealmSwift-umbrella.h</key>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZJXW2wvCa4YRUJgIjaxbqs6mgjY=
+			TOpAL4Hh1HIszhuLAhoXeuhfe2Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			480frdDY9r2vv07KDsdQ1y6WmZd8TE5fTbAF79UJ2Vc=
+			OSNQLxzHOK7zBZkaGChPAQPPVcfJacV+gF5QhVm3iok=
 			</data>
 		</dict>
 		<key>Modules/RealmSwift.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/dyw+FOJu1RsIwuvWDACiNAM4kc=
+			9CrMPrhAs5hz/bD/bc5XpEjweow=
 			</data>
 			<key>hash2</key>
 			<data>
-			6aesyj/9KWzypWQ39kIwfwb7yhBS6pP9p4c14F874UM=
+			uJz6UOuCcUwY/dzpWFEbHnqUIjMmOsxYQPR5eh2RVoM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

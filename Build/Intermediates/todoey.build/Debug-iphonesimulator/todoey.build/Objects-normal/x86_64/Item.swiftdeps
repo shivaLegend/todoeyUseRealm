@@ -6,12 +6,14 @@ provides-nominal:
 provides-member:
 - ["6todoey4ItemC", ""]
 provides-dynamic-lookup:
+- "date"
 - "done"
 - "title"
 depends-top-level:
 - "Bool"
 - "BooleanLiteralType"
 - "Category"
+- "Date"
 - "Item"
 - "LinkingObjects"
 - "Object"
@@ -20,42 +22,44 @@ depends-top-level:
 depends-member:
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "Category"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "LinkingObjects"]
-- ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
 - ["s23BidirectionalCollectionP", "init"]
 - ["s7CVarArgP", "Category"]
 - ["s7CVarArgP", "LinkingObjects"]
-- ["s7CVarArgP", "init"]
 - ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "Category"]
 - ["s28CustomDebugStringConvertibleP", "LinkingObjects"]
-- ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "Category"]
 - ["s23CustomStringConvertibleP", "LinkingObjects"]
-- ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
 - ["s9DecodableP", "init"]
 - ["s9EncodableP", "init"]
 - ["s9EquatableP", "Category"]
 - ["s9EquatableP", "LinkingObjects"]
-- ["s9EquatableP", "init"]
 - ["s9EquatableP", ""]
+- ["s9EquatableP", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s8HashableP", "Category"]
 - ["s8HashableP", "LinkingObjects"]
-- ["s8HashableP", "init"]
 - ["s8HashableP", ""]
+- ["s8HashableP", "init"]
 - ["6todoey4ItemC", "Bool"]
 - ["6todoey4ItemC", "Category"]
+- ["6todoey4ItemC", "Date"]
 - ["6todoey4ItemC", "LinkingObjects"]
 - ["6todoey4ItemC", "String"]
+- ["6todoey4ItemC", "date"]
 - ["6todoey4ItemC", "deinit"]
 - ["6todoey4ItemC", "done"]
 - ["6todoey4ItemC", "init"]
@@ -66,39 +70,38 @@ depends-member:
 - ["10RealmSwift14LinkingObjectsC", "init"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
-- ["So8NSCodingP", "init"]
-- ["So9NSCopyingP", "init"]
 - ["So17NSFastEnumerationP", "init"]
-- ["So21NSItemProviderReadingP", "init"]
-- ["So21NSItemProviderWritingP", "init"]
-- ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "Category"]
+- ["So8NSObjectC", "Date"]
 - ["So8NSObjectC", "LinkingObjects"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "date"]
 - ["So8NSObjectC", "done"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "title"]
 - ["So8NSObjectC", "yourParent"]
 - ["So16NSObjectProtocolP", "Category"]
 - ["So16NSObjectProtocolP", "LinkingObjects"]
-- ["So16NSObjectProtocolP", "init"]
 - ["So16NSObjectProtocolP", ""]
-- ["So14NSSecureCodingP", "init"]
-- ["So8NSStringC", "init"]
+- ["So16NSObjectProtocolP", "init"]
 - ["10RealmSwift6ObjectC", "Bool"]
 - ["10RealmSwift6ObjectC", "Category"]
+- ["10RealmSwift6ObjectC", "Date"]
 - ["10RealmSwift6ObjectC", "LinkingObjects"]
 - ["10RealmSwift6ObjectC", "String"]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "date"]
 - ["10RealmSwift6ObjectC", "done"]
 - ["10RealmSwift6ObjectC", "init"]
 - ["10RealmSwift6ObjectC", "title"]
 - ["10RealmSwift6ObjectC", "yourParent"]
-- ["10RealmSwift6ObjectC", ""]
 - ["So13RLMObjectBaseC", "Bool"]
 - ["So13RLMObjectBaseC", "Category"]
+- ["So13RLMObjectBaseC", "Date"]
 - ["So13RLMObjectBaseC", "LinkingObjects"]
 - ["So13RLMObjectBaseC", "String"]
+- ["So13RLMObjectBaseC", "date"]
 - ["So13RLMObjectBaseC", "done"]
 - ["So13RLMObjectBaseC", "init"]
 - ["So13RLMObjectBaseC", "title"]
@@ -109,8 +112,8 @@ depends-member:
 - ["10RealmSwift0A14CollectionBaseP", "init"]
 - ["10RealmSwift0A15CollectionValueP", "Category"]
 - ["10RealmSwift0A15CollectionValueP", "LinkingObjects"]
-- ["10RealmSwift0A15CollectionValueP", "init"]
 - ["10RealmSwift0A15CollectionValueP", ""]
+- ["10RealmSwift0A15CollectionValueP", "init"]
 - ["s8SequenceP", "init"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
@@ -118,24 +121,18 @@ depends-member:
 - ["s20TextOutputStreamableP", "init"]
 - ["10RealmSwift14ThreadConfinedP", "Category"]
 - ["10RealmSwift14ThreadConfinedP", "LinkingObjects"]
-- ["10RealmSwift14ThreadConfinedP", "init"]
 - ["10RealmSwift14ThreadConfinedP", ""]
-- ["s23_BidirectionalIndexableP", "init"]
+- ["10RealmSwift14ThreadConfinedP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- ["s10_IndexableP", "init"]
-- ["s14_IndexableBaseP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Category"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LinkingObjects"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["s21_ObjectiveCBridgeableP", "init"]
-- ["s22_RandomAccessIndexableP", "init"]
-- ["s26_RangeReplaceableIndexableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "10RealmSwift28AssistedObjectiveCBridgeableP"
@@ -160,16 +157,9 @@ depends-nominal:
 - "10RealmSwift14LinkingObjectsC"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
-- "So8NSCodingP"
-- "So9NSCopyingP"
 - "So17NSFastEnumerationP"
-- "So21NSItemProviderReadingP"
-- "So21NSItemProviderWritingP"
-- "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- "So14NSSecureCodingP"
-- "So8NSStringC"
 - "10RealmSwift6ObjectC"
 - "So13RLMObjectBaseC"
 - "s22RandomAccessCollectionP"
@@ -183,26 +173,19 @@ depends-nominal:
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "10RealmSwift14ThreadConfinedP"
-- "s23_BidirectionalIndexableP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
@@ -262,4 +245,14 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
-interface-hash: "567366d37b68ace2a963dd654ed1a8ad"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "39a3c2e641eb131bb1b04451b33fcd79"

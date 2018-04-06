@@ -33,6 +33,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "schema"]
 - !private ["s17CustomReflectableP", "map"]
 - !private ["s23CustomStringConvertibleP", "ObjectSchema"]
+- ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "description"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isEqual"]
@@ -40,17 +41,17 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "objectSchema"]
 - !private ["s23CustomStringConvertibleP", "rlmSchema"]
 - !private ["s23CustomStringConvertibleP", "schema"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "map"]
 - !private ["s9EncodableP", "map"]
 - !private ["s9EquatableP", "ObjectSchema"]
+- ["s9EquatableP", ""]
 - ["s9EquatableP", "description"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "isEqual"]
+- !private ["s9EquatableP", "map"]
 - !private ["s9EquatableP", "objectSchema"]
 - !private ["s9EquatableP", "rlmSchema"]
 - !private ["s9EquatableP", "schema"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
 - !private ["s8HashableP", "description"]
 - !private ["s8HashableP", "isEqual"]
@@ -90,18 +91,12 @@ depends-member:
 - ["10RealmSwift6SchemaV", "subscript"]
 - !private ["s8SequenceP", "map"]
 - !private ["s14_ArrayProtocolP", "map"]
-- !private ["s23_BidirectionalIndexableP", "map"]
 - !private ["s24_DestructorSafeContainerP", "map"]
-- !private ["s10_IndexableP", "map"]
-- !private ["s14_IndexableBaseP", "map"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "description"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isEqual"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "objectSchema"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "schema"]
-- !private ["s17_MutableIndexableP", "map"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
-- !private ["s22_RandomAccessIndexableP", "map"]
-- !private ["s26_RangeReplaceableIndexableP", "map"]
 depends-nominal:
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
@@ -126,15 +121,9 @@ depends-nominal:
 - "10RealmSwift6SchemaV"
 - !private "s8SequenceP"
 - !private "s14_ArrayProtocolP"
-- !private "s23_BidirectionalIndexableP"
 - !private "s24_DestructorSafeContainerP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - !private "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "s22_RandomAccessIndexableP"
-- !private "s26_RangeReplaceableIndexableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -197,4 +186,14 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/RealmSwift.build/unextended-module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 interface-hash: "c27b11d5a0934f130de5c2798b5118cf"

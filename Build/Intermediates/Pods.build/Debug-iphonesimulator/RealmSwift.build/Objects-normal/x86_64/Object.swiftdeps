@@ -54,19 +54,19 @@ depends-top-level:
 - "DynamicObject"
 - !private "ExpressibleByNilLiteral"
 - !private "Float"
-- !private "Int"
+- "Int"
 - !private "Int16"
 - !private "Int32"
 - !private "Int64"
 - !private "Int8"
 - !private "LinkingObjectsBase"
 - "List"
-- !private "Mirror"
-- !private "NSArray"
-- !private "NSDictionary"
+- "Mirror"
+- "NSArray"
+- "NSDictionary"
 - "NSError"
 - "NSObject"
-- !private "NSString"
+- "NSString"
 - "NotificationToken"
 - "Object"
 - "ObjectChange"
@@ -88,7 +88,7 @@ depends-top-level:
 - !private "RLMOptionalBase"
 - "RLMRealm"
 - "RLMSchema"
-- !private "RLMSwiftPropertyMetadata"
+- "RLMSwiftPropertyMetadata"
 - "Realm"
 - "RealmCollectionValue"
 - !private "RealmOptional"
@@ -121,6 +121,7 @@ depends-member:
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMObjectBaseObjectSchema"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "RLMObjectBaseRealm"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "Realm"]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "_rlmArray"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "bridged"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "bridging"]
@@ -137,7 +138,6 @@ depends-member:
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "subscript"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "unsafeCastToRLMObject"]
 - !private ["10RealmSwift28AssistedObjectiveCBridgeableP", "value"]
-- ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
 - !private ["s23BidirectionalCollectionP", "count"]
 - !private ["s23BidirectionalCollectionP", "enumerated"]
 - !private ["s23BidirectionalCollectionP", "init"]
@@ -145,7 +145,7 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "range"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["Sb", "deinit"]
+- ["Sb", "deinit"]
 - !private ["s7CVarArgP", "List"]
 - !private ["s7CVarArgP", "Mirror"]
 - !private ["s7CVarArgP", "ObjectSchema"]
@@ -162,6 +162,8 @@ depends-member:
 - !private ["s7CVarArgP", "Realm"]
 - !private ["s7CVarArgP", "Set"]
 - !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - ["s7CVarArgP", "_rlmArray"]
 - !private ["s7CVarArgP", "baseName"]
 - ["s7CVarArgP", "bridged"]
@@ -192,7 +194,6 @@ depends-member:
 - !private ["s7CVarArgP", "type"]
 - !private ["s7CVarArgP", "unsafeCastToRLMObject"]
 - !private ["s7CVarArgP", "value"]
-- ["s7CVarArgP", ""]
 - !private ["s10CollectionP", "contains"]
 - !private ["s10CollectionP", "count"]
 - !private ["s10CollectionP", "enumerated"]
@@ -223,6 +224,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "Realm"]
 - !private ["s28CustomDebugStringConvertibleP", "Set"]
 - !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "_rlmArray"]
 - !private ["s28CustomDebugStringConvertibleP", "baseName"]
 - ["s28CustomDebugStringConvertibleP", "bridged"]
@@ -256,13 +258,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "type"]
 - !private ["s28CustomDebugStringConvertibleP", "unsafeCastToRLMObject"]
 - !private ["s28CustomDebugStringConvertibleP", "value"]
-- ["s28CustomDebugStringConvertibleP", ""]
 - !private ["10RealmSwift26CustomObjectiveCBridgeableP", "optional"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "range"]
 - !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
-- !private ["s17CustomReflectableP", "Child"]
+- ["s17CustomReflectableP", "Child"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "children"]
 - !private ["s17CustomReflectableP", "contains"]
@@ -276,7 +277,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "range"]
 - !private ["s17CustomReflectableP", "subjectType"]
 - !private ["s17CustomReflectableP", "subscript"]
-- !private ["s23CustomStringConvertibleP", "Child"]
+- ["s23CustomStringConvertibleP", "Child"]
 - !private ["s23CustomStringConvertibleP", "List"]
 - !private ["s23CustomStringConvertibleP", "Mirror"]
 - !private ["s23CustomStringConvertibleP", "ObjectSchema"]
@@ -293,6 +294,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "Realm"]
 - !private ["s23CustomStringConvertibleP", "Set"]
 - !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s23CustomStringConvertibleP", "_rlmArray"]
 - !private ["s23CustomStringConvertibleP", "baseName"]
@@ -329,7 +331,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "type"]
 - !private ["s23CustomStringConvertibleP", "unsafeCastToRLMObject"]
 - !private ["s23CustomStringConvertibleP", "value"]
-- ["s23CustomStringConvertibleP", ""]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "contains"]
 - !private ["s9DecodableP", "count"]
@@ -339,7 +340,7 @@ depends-member:
 - !private ["s9DecodableP", "range"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s6MirrorV12DisplayStyleO", "optional"]
-- !private ["Sd", "deinit"]
+- ["Sd", "deinit"]
 - !private ["10RealmSwift13DynamicObjectC", "AnyObject"]
 - ["10RealmSwift13DynamicObjectC", "Bool"]
 - !private ["10RealmSwift13DynamicObjectC", "DynamicObject"]
@@ -379,6 +380,7 @@ depends-member:
 - !private ["s9EquatableP", "Realm"]
 - !private ["s9EquatableP", "Set"]
 - !private ["s9EquatableP", "String"]
+- ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - ["s9EquatableP", "_rlmArray"]
 - !private ["s9EquatableP", "anchored"]
@@ -389,10 +391,12 @@ depends-member:
 - ["s9EquatableP", "bridging"]
 - !private ["s9EquatableP", "className"]
 - !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "data"]
 - !private ["s9EquatableP", "date"]
 - !private ["s9EquatableP", "description"]
 - !private ["s9EquatableP", "double"]
+- !private ["s9EquatableP", "enumerated"]
 - !private ["s9EquatableP", "fatalError"]
 - !private ["s9EquatableP", "float"]
 - !private ["s9EquatableP", "forceCastToInferred"]
@@ -421,7 +425,6 @@ depends-member:
 - !private ["s9EquatableP", "type"]
 - !private ["s9EquatableP", "unsafeCastToRLMObject"]
 - !private ["s9EquatableP", "value"]
-- ["s9EquatableP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "anchored"]
 - !private ["s25ExpressibleByArrayLiteralP", "backwards"]
 - !private ["s25ExpressibleByArrayLiteralP", "contains"]
@@ -440,7 +443,7 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
-- !private ["Sf", "deinit"]
+- ["Sf", "deinit"]
 - !private ["s8HashableP", "List"]
 - !private ["s8HashableP", "Mirror"]
 - !private ["s8HashableP", "ObjectSchema"]
@@ -457,6 +460,7 @@ depends-member:
 - !private ["s8HashableP", "Realm"]
 - !private ["s8HashableP", "Set"]
 - !private ["s8HashableP", "String"]
+- ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - ["s8HashableP", "_rlmArray"]
 - !private ["s8HashableP", "baseName"]
@@ -495,12 +499,11 @@ depends-member:
 - !private ["s8HashableP", "type"]
 - !private ["s8HashableP", "unsafeCastToRLMObject"]
 - !private ["s8HashableP", "value"]
-- ["s8HashableP", ""]
-- !private ["Si", "deinit"]
-- !private ["s5Int16V", "deinit"]
-- !private ["s5Int32V", "deinit"]
-- !private ["s5Int64V", "deinit"]
-- !private ["s4Int8V", "deinit"]
+- ["Si", "deinit"]
+- ["s5Int16V", "deinit"]
+- ["s5Int32V", "deinit"]
+- ["s5Int64V", "deinit"]
+- ["s4Int8V", "deinit"]
 - !private ["s22LazyCollectionProtocolP", "init"]
 - !private ["s20LazySequenceProtocolP", "init"]
 - !private ["10RealmSwift18LinkingObjectsBaseC", "objectClassName"]
@@ -510,7 +513,7 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "range"]
 - !private ["s25LosslessStringConvertibleP", "subscript"]
-- !private ["s6MirrorV", "Child"]
+- ["s6MirrorV", "Child"]
 - !private ["s6MirrorV", "children"]
 - !private ["s6MirrorV", "displayStyle"]
 - !private ["s6MirrorV", "init"]
@@ -522,23 +525,18 @@ depends-member:
 - !private ["s17MutableCollectionP", "enumerated"]
 - !private ["s17MutableCollectionP", "init"]
 - !private ["s17MutableCollectionP", "subscript"]
-- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "range"]
 - !private ["So8NSCodingP", "subscript"]
-- !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "partialPrivateShared"]
 - !private ["So9NSCopyingP", "range"]
 - !private ["So9NSCopyingP", "subscript"]
 - !private ["So17NSFastEnumerationP", "init"]
 - !private ["So17NSFastEnumerationP", "objectClassName"]
 - !private ["So17NSFastEnumerationP", "propertyName"]
-- !private ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "range"]
 - !private ["So21NSItemProviderReadingP", "subscript"]
-- !private ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "range"]
 - !private ["So21NSItemProviderWritingP", "subscript"]
-- !private ["So16NSMutableCopyingP", "init"]
 - !private ["So16NSMutableCopyingP", "range"]
 - !private ["So16NSMutableCopyingP", "subscript"]
 - ["So8NSObjectC", "AnyClass"]
@@ -550,18 +548,18 @@ depends-member:
 - ["So8NSObjectC", "DynamicObject"]
 - !private ["So8NSObjectC", "ExpressibleByNilLiteral"]
 - !private ["So8NSObjectC", "Float"]
-- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Int"]
 - !private ["So8NSObjectC", "Int16"]
 - !private ["So8NSObjectC", "Int32"]
 - !private ["So8NSObjectC", "Int64"]
 - !private ["So8NSObjectC", "Int8"]
 - !private ["So8NSObjectC", "LinkingObjectsBase"]
 - ["So8NSObjectC", "List"]
-- !private ["So8NSObjectC", "Mirror"]
-- !private ["So8NSObjectC", "NSArray"]
-- !private ["So8NSObjectC", "NSDictionary"]
+- ["So8NSObjectC", "Mirror"]
+- ["So8NSObjectC", "NSArray"]
+- ["So8NSObjectC", "NSDictionary"]
 - !private ["So8NSObjectC", "NSError"]
-- !private ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "NSString"]
 - ["So8NSObjectC", "NotificationToken"]
 - ["So8NSObjectC", "Object"]
 - ["So8NSObjectC", "ObjectChange"]
@@ -582,12 +580,13 @@ depends-member:
 - !private ["So8NSObjectC", "RLMOptionalBase"]
 - ["So8NSObjectC", "RLMRealm"]
 - ["So8NSObjectC", "RLMSchema"]
-- !private ["So8NSObjectC", "RLMSwiftPropertyMetadata"]
+- ["So8NSObjectC", "RLMSwiftPropertyMetadata"]
 - ["So8NSObjectC", "Realm"]
 - !private ["So8NSObjectC", "RealmOptional"]
 - !private ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
 - ["So8NSObjectC", "_rlmArray"]
 - ["So8NSObjectC", "addNotificationBlock"]
 - ["So8NSObjectC", "baseName"]
@@ -630,7 +629,6 @@ depends-member:
 - !private ["So8NSObjectC", "type"]
 - !private ["So8NSObjectC", "unsafeCastToRLMObject"]
 - ["So8NSObjectC", "value"]
-- ["So8NSObjectC", ""]
 - !private ["So16NSObjectProtocolP", "List"]
 - !private ["So16NSObjectProtocolP", "Mirror"]
 - !private ["So16NSObjectProtocolP", "ObjectSchema"]
@@ -647,6 +645,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "Realm"]
 - !private ["So16NSObjectProtocolP", "Set"]
 - !private ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", ""]
 - ["So16NSObjectProtocolP", "_rlmArray"]
 - !private ["So16NSObjectProtocolP", "baseName"]
 - ["So16NSObjectProtocolP", "bridged"]
@@ -674,11 +673,8 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "type"]
 - !private ["So16NSObjectProtocolP", "unsafeCastToRLMObject"]
 - !private ["So16NSObjectProtocolP", "value"]
-- ["So16NSObjectProtocolP", ""]
-- !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "range"]
 - !private ["So14NSSecureCodingP", "subscript"]
-- !private ["So8NSStringC", "init"]
 - !private ["So8NSStringC", "range"]
 - !private ["So8NSStringC", "subscript"]
 - ["10RealmSwift6ObjectC", "AnyClass"]
@@ -707,6 +703,7 @@ depends-member:
 - ["10RealmSwift6ObjectC", "Realm"]
 - ["10RealmSwift6ObjectC", "String"]
 - ["10RealmSwift6ObjectC", "Void"]
+- ["10RealmSwift6ObjectC", ""]
 - ["10RealmSwift6ObjectC", "_rlmArray"]
 - ["10RealmSwift6ObjectC", "addNotificationBlock"]
 - ["10RealmSwift6ObjectC", "bridged"]
@@ -734,39 +731,38 @@ depends-member:
 - ["10RealmSwift6ObjectC", "subscript"]
 - !private ["10RealmSwift6ObjectC", "unsafeCastToRLMObject"]
 - ["10RealmSwift6ObjectC", "value"]
-- ["10RealmSwift6ObjectC", ""]
 - ["10RealmSwift12ObjectChangeO", "NSError"]
 - ["10RealmSwift12ObjectChangeO", "PropertyChange"]
 - ["10RealmSwift12ObjectChangeO", "change"]
 - ["10RealmSwift12ObjectChangeO", "deleted"]
 - ["10RealmSwift12ObjectChangeO", "error"]
 - !private ["10RealmSwift12ObjectSchemaV", "init"]
-- !private ["10RealmSwift10ObjectUtilC", "AnyClass"]
+- ["10RealmSwift10ObjectUtilC", "AnyClass"]
 - !private ["10RealmSwift10ObjectUtilC", "Bool"]
 - !private ["10RealmSwift10ObjectUtilC", "Data"]
 - !private ["10RealmSwift10ObjectUtilC", "Date"]
 - !private ["10RealmSwift10ObjectUtilC", "Double"]
 - !private ["10RealmSwift10ObjectUtilC", "ExpressibleByNilLiteral"]
 - !private ["10RealmSwift10ObjectUtilC", "Float"]
-- !private ["10RealmSwift10ObjectUtilC", "Int"]
+- ["10RealmSwift10ObjectUtilC", "Int"]
 - !private ["10RealmSwift10ObjectUtilC", "Int16"]
 - !private ["10RealmSwift10ObjectUtilC", "Int32"]
 - !private ["10RealmSwift10ObjectUtilC", "Int64"]
 - !private ["10RealmSwift10ObjectUtilC", "Int8"]
 - !private ["10RealmSwift10ObjectUtilC", "LinkingObjectsBase"]
-- !private ["10RealmSwift10ObjectUtilC", "Mirror"]
-- !private ["10RealmSwift10ObjectUtilC", "NSArray"]
-- !private ["10RealmSwift10ObjectUtilC", "NSDictionary"]
-- !private ["10RealmSwift10ObjectUtilC", "NSString"]
+- ["10RealmSwift10ObjectUtilC", "Mirror"]
+- ["10RealmSwift10ObjectUtilC", "NSArray"]
+- ["10RealmSwift10ObjectUtilC", "NSDictionary"]
+- ["10RealmSwift10ObjectUtilC", "NSString"]
 - !private ["10RealmSwift10ObjectUtilC", "Object"]
 - !private ["10RealmSwift10ObjectUtilC", "Optional"]
 - !private ["10RealmSwift10ObjectUtilC", "PropertyType"]
 - !private ["10RealmSwift10ObjectUtilC", "RLMListBase"]
 - !private ["10RealmSwift10ObjectUtilC", "RLMOptionalBase"]
-- !private ["10RealmSwift10ObjectUtilC", "RLMSwiftPropertyMetadata"]
+- ["10RealmSwift10ObjectUtilC", "RLMSwiftPropertyMetadata"]
 - !private ["10RealmSwift10ObjectUtilC", "RealmOptional"]
 - !private ["10RealmSwift10ObjectUtilC", "Set"]
-- !private ["10RealmSwift10ObjectUtilC", "String"]
+- ["10RealmSwift10ObjectUtilC", "String"]
 - !private ["10RealmSwift10ObjectUtilC", "baseName"]
 - ["10RealmSwift10ObjectUtilC", "deinit"]
 - !private ["10RealmSwift10ObjectUtilC", "getNonIgnoredMirrorChildren"]
@@ -818,6 +814,7 @@ depends-member:
 - ["So13RLMObjectBaseC", "Realm"]
 - ["So13RLMObjectBaseC", "String"]
 - ["So13RLMObjectBaseC", "Void"]
+- ["So13RLMObjectBaseC", ""]
 - ["So13RLMObjectBaseC", "_rlmArray"]
 - ["So13RLMObjectBaseC", "addNotificationBlock"]
 - ["So13RLMObjectBaseC", "bridged"]
@@ -844,7 +841,6 @@ depends-member:
 - ["So13RLMObjectBaseC", "subscript"]
 - !private ["So13RLMObjectBaseC", "unsafeCastToRLMObject"]
 - ["So13RLMObjectBaseC", "value"]
-- ["So13RLMObjectBaseC", ""]
 - !private ["SC15RLMPropertyTypeO", "bool"]
 - !private ["SC15RLMPropertyTypeO", "data"]
 - !private ["SC15RLMPropertyTypeO", "date"]
@@ -896,6 +892,7 @@ depends-member:
 - !private ["10RealmSwift0A15CollectionValueP", "RLMObjectBaseObjectSchema"]
 - !private ["10RealmSwift0A15CollectionValueP", "RLMObjectBaseRealm"]
 - !private ["10RealmSwift0A15CollectionValueP", "Realm"]
+- ["10RealmSwift0A15CollectionValueP", ""]
 - !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
 - ["10RealmSwift0A15CollectionValueP", "_rlmArray"]
 - ["10RealmSwift0A15CollectionValueP", "bridged"]
@@ -915,7 +912,6 @@ depends-member:
 - !private ["10RealmSwift0A15CollectionValueP", "subscript"]
 - !private ["10RealmSwift0A15CollectionValueP", "unsafeCastToRLMObject"]
 - !private ["10RealmSwift0A15CollectionValueP", "value"]
-- ["10RealmSwift0A15CollectionValueP", ""]
 - !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
 - !private ["s8SequenceP", "contains"]
 - !private ["s8SequenceP", "count"]
@@ -956,6 +952,7 @@ depends-member:
 - !private ["10RealmSwift14ThreadConfinedP", "RLMObjectBaseObjectSchema"]
 - !private ["10RealmSwift14ThreadConfinedP", "RLMObjectBaseRealm"]
 - !private ["10RealmSwift14ThreadConfinedP", "Realm"]
+- ["10RealmSwift14ThreadConfinedP", ""]
 - ["10RealmSwift14ThreadConfinedP", "_rlmArray"]
 - ["10RealmSwift14ThreadConfinedP", "bridged"]
 - ["10RealmSwift14ThreadConfinedP", "bridging"]
@@ -972,17 +969,10 @@ depends-member:
 - !private ["10RealmSwift14ThreadConfinedP", "subscript"]
 - !private ["10RealmSwift14ThreadConfinedP", "unsafeCastToRLMObject"]
 - !private ["10RealmSwift14ThreadConfinedP", "value"]
-- ["10RealmSwift14ThreadConfinedP", ""]
 - !private ["s22_AnyCollectionProtocolP", "filter"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s14_ArrayProtocolP", "enumerated"]
 - !private ["s14_ArrayProtocolP", "subscript"]
-- !private ["s23_BidirectionalIndexableP", "count"]
-- !private ["s23_BidirectionalIndexableP", "enumerated"]
-- !private ["s23_BidirectionalIndexableP", "init"]
-- !private ["s23_BidirectionalIndexableP", "map"]
-- !private ["s23_BidirectionalIndexableP", "range"]
-- !private ["s23_BidirectionalIndexableP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "enumerated"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
@@ -1002,25 +992,8 @@ depends-member:
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "range"]
 - !private ["s33_ExpressibleByStringInterpolationP", "subscript"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
-- !private ["s10_IndexableP", "contains"]
-- !private ["s10_IndexableP", "count"]
-- !private ["s10_IndexableP", "enumerated"]
-- !private ["s10_IndexableP", "filter"]
-- !private ["s10_IndexableP", "init"]
-- !private ["s10_IndexableP", "map"]
-- !private ["s10_IndexableP", "range"]
-- !private ["s10_IndexableP", "subscript"]
-- !private ["s14_IndexableBaseP", "contains"]
-- !private ["s14_IndexableBaseP", "count"]
-- !private ["s14_IndexableBaseP", "enumerated"]
-- !private ["s14_IndexableBaseP", "filter"]
-- !private ["s14_IndexableBaseP", "init"]
-- !private ["s14_IndexableBaseP", "map"]
-- !private ["s14_IndexableBaseP", "range"]
-- !private ["s14_IndexableBaseP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "List"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Mirror"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ObjectSchema"]
@@ -1037,6 +1010,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Realm"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Set"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "_rlmArray"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "baseName"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "bridged"]
@@ -1064,11 +1038,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "unsafeCastToRLMObject"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["s17_MutableIndexableP", "count"]
-- !private ["s17_MutableIndexableP", "enumerated"]
-- !private ["s17_MutableIndexableP", "init"]
-- !private ["s17_MutableIndexableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "contains"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
@@ -1078,16 +1047,6 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "range"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s26_OptionalNilComparisonTypeV", "optional"]
-- !private ["s22_RandomAccessIndexableP", "count"]
-- !private ["s22_RandomAccessIndexableP", "enumerated"]
-- !private ["s22_RandomAccessIndexableP", "init"]
-- !private ["s22_RandomAccessIndexableP", "map"]
-- !private ["s22_RandomAccessIndexableP", "subscript"]
-- !private ["s26_RangeReplaceableIndexableP", "count"]
-- !private ["s26_RangeReplaceableIndexableP", "enumerated"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
-- !private ["s26_RangeReplaceableIndexableP", "range"]
-- !private ["s26_RangeReplaceableIndexableP", "subscript"]
 - !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "range"]
 - !private ["s16_SwiftStringViewP", "subscript"]
@@ -1096,7 +1055,7 @@ depends-nominal:
 - !private "Sa"
 - "10RealmSwift28AssistedObjectiveCBridgeableP"
 - !private "s23BidirectionalCollectionP"
-- !private "Sb"
+- "Sb"
 - "s7CVarArgP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
@@ -1105,11 +1064,11 @@ depends-nominal:
 - "s28CustomDebugStringConvertibleP"
 - !private "10RealmSwift26CustomObjectiveCBridgeableP"
 - !private "s29CustomPlaygroundQuickLookableP"
-- !private "s17CustomReflectableP"
+- "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "s9DecodableP"
 - !private "s6MirrorV12DisplayStyleO"
-- !private "Sd"
+- "Sd"
 - "10RealmSwift13DynamicObjectC"
 - !private "s9EncodableP"
 - !private "s18EnumeratedSequenceV"
@@ -1120,19 +1079,19 @@ depends-nominal:
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "Sf"
+- "Sf"
 - "s8HashableP"
-- !private "Si"
-- !private "s5Int16V"
-- !private "s5Int32V"
-- !private "s5Int64V"
-- !private "s4Int8V"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
 - !private "s22LazyCollectionProtocolP"
 - !private "s20LazySequenceProtocolP"
 - !private "10RealmSwift18LinkingObjectsBaseC"
 - !private "10RealmSwift4ListC"
 - !private "s25LosslessStringConvertibleP"
-- !private "s6MirrorV"
+- "s6MirrorV"
 - !private "s10MirrorPathP"
 - !private "s17MutableCollectionP"
 - !private "So8NSCodingP"
@@ -1181,7 +1140,6 @@ depends-nominal:
 - "10RealmSwift14ThreadConfinedP"
 - !private "s22_AnyCollectionProtocolP"
 - !private "s14_ArrayProtocolP"
-- !private "s23_BidirectionalIndexableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
@@ -1190,14 +1148,9 @@ depends-nominal:
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- !private "s17_MutableIndexableP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s26_OptionalNilComparisonTypeV"
-- !private "s22_RandomAccessIndexableP"
-- !private "s26_RangeReplaceableIndexableP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -1261,4 +1214,14 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/RealmSwift.build/unextended-module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/Realm.build/module.modulemap"
-interface-hash: "f5ba6de770cf6a266bca46ecc744dc61"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "50e5ed5eebc2b517fc156b0a2118f398"
