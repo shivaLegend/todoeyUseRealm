@@ -6,12 +6,14 @@ provides-nominal:
 provides-member:
 - ["6todoey4ItemC", ""]
 provides-dynamic-lookup:
+- "date"
 - "done"
 - "title"
 depends-top-level:
 - "Bool"
 - "BooleanLiteralType"
 - "Category"
+- "Date"
 - "Item"
 - "LinkingObjects"
 - "Object"
@@ -54,8 +56,10 @@ depends-member:
 - ["s8HashableP", "init"]
 - ["6todoey4ItemC", "Bool"]
 - ["6todoey4ItemC", "Category"]
+- ["6todoey4ItemC", "Date"]
 - ["6todoey4ItemC", "LinkingObjects"]
 - ["6todoey4ItemC", "String"]
+- ["6todoey4ItemC", "date"]
 - ["6todoey4ItemC", "deinit"]
 - ["6todoey4ItemC", "done"]
 - ["6todoey4ItemC", "init"]
@@ -69,8 +73,10 @@ depends-member:
 - ["So17NSFastEnumerationP", "init"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "Category"]
+- ["So8NSObjectC", "Date"]
 - ["So8NSObjectC", "LinkingObjects"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "date"]
 - ["So8NSObjectC", "done"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "title"]
@@ -81,17 +87,21 @@ depends-member:
 - ["So16NSObjectProtocolP", "init"]
 - ["10RealmSwift6ObjectC", "Bool"]
 - ["10RealmSwift6ObjectC", "Category"]
+- ["10RealmSwift6ObjectC", "Date"]
 - ["10RealmSwift6ObjectC", "LinkingObjects"]
 - ["10RealmSwift6ObjectC", "String"]
 - ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "date"]
 - ["10RealmSwift6ObjectC", "done"]
 - ["10RealmSwift6ObjectC", "init"]
 - ["10RealmSwift6ObjectC", "title"]
 - ["10RealmSwift6ObjectC", "yourParent"]
 - ["So13RLMObjectBaseC", "Bool"]
 - ["So13RLMObjectBaseC", "Category"]
+- ["So13RLMObjectBaseC", "Date"]
 - ["So13RLMObjectBaseC", "LinkingObjects"]
 - ["So13RLMObjectBaseC", "String"]
+- ["So13RLMObjectBaseC", "date"]
 - ["So13RLMObjectBaseC", "done"]
 - ["So13RLMObjectBaseC", "init"]
 - ["So13RLMObjectBaseC", "title"]
@@ -175,6 +185,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
@@ -188,6 +199,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
@@ -231,10 +243,12 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -245,4 +259,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "ab4e7d7b00257cf14a0cc4abdd29ebbc"
+interface-hash: "39a3c2e641eb131bb1b04451b33fcd79"

@@ -8,8 +8,10 @@
 
 import UIKit
 import RealmSwift
+import ChameleonFramework
 
-class CategoryTableViewController: UITableViewController {
+class CategoryTableViewController: SwipeTableViewCellViewController {
+    
     var realm = try! Realm()
     var categories : Results<Category>?
 
@@ -17,10 +19,11 @@ class CategoryTableViewController: UITableViewController {
         super.viewDidLoad()
         
         loadData()
+        tableView.rowHeight = 70.0
+        tableView.separatorStyle = .none
         
     }
 
-   
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,11 +31,14 @@ class CategoryTableViewController: UITableViewController {
     }
 
     
-
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath)
-        cell.textLabel?.text = categories?[indexPath.row].name ?? "No category"
+        let cell = super.tableView(tableView, cellForRowAt: indexPath)
+        if let category = categories?[indexPath.row] {
+        cell.textLabel?.text = category.name
+        guard let color = UIColor(hexString: category.hexString) else {fatalError()}
+        cell.backgroundColor = color
+        cell.textLabel?.textColor = ContrastColorOf(color, returnFlat: true)
+        }
         return cell
     }
     // MARK: save and load data
@@ -65,6 +71,7 @@ class CategoryTableViewController: UITableViewController {
         let new = Category()
         let alertAction = UIAlertAction.init(title: "Add", style: .default) { (action) in
             new.name = textF.text!
+            new.hexString = UIColor.randomFlat.hexValue()
             self.saveData(new: new)
             
         }
@@ -82,9 +89,20 @@ class CategoryTableViewController: UITableViewController {
             destinationVC.selectedCategory = categories?[(indexPath.row)]
         }
     }
+    override func updateDataInRealm(indexPath: IndexPath) {
+        if let needDelete = self.categories?[indexPath.row] {
+            do {
+                try self.realm.write {
+                self.realm.delete(needDelete)
+                }
+            }
+            catch {
+                print("delete error \(error)")
+                }
+            }
+    }
     
 }
-    
 
 
 

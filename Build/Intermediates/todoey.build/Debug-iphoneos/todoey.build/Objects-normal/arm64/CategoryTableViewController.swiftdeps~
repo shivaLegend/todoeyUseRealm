@@ -22,13 +22,13 @@ depends-top-level:
 - "Realm"
 - "Results"
 - !private "StringLiteralType"
+- "SwipeTableViewCellViewController"
 - !private "TodoListViewController"
 - !private "UIAlertAction"
 - !private "UIAlertController"
 - "UIStoryboardSegue"
 - "UITableView"
 - "UITableViewCell"
-- "UITableViewController"
 - !private "UITextField"
 - !private "print"
 depends-member:
@@ -41,11 +41,11 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "name"]
 - !private ["s23BidirectionalCollectionP", "row"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
-- !private ["So15CALayerDelegateP", "dequeueReusableCell"]
 - !private ["So15CALayerDelegateP", "indexPathForSelectedRow"]
 - !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "placeholder"]
 - !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "rowHeight"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So15CALayerDelegateP", "textLabel"]
 - !private ["s7CVarArgP", "Category"]
@@ -58,7 +58,6 @@ depends-member:
 - !private ["s7CVarArgP", "addTextField"]
 - !private ["s7CVarArgP", "categories"]
 - !private ["s7CVarArgP", "count"]
-- !private ["s7CVarArgP", "dequeueReusableCell"]
 - !private ["s7CVarArgP", "destination"]
 - !private ["s7CVarArgP", "indexPathForSelectedRow"]
 - !private ["s7CVarArgP", "init"]
@@ -70,6 +69,7 @@ depends-member:
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "realm"]
 - !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "rowHeight"]
 - !private ["s7CVarArgP", "saveData"]
 - !private ["s7CVarArgP", "selectedCategory"]
 - !private ["s7CVarArgP", "subscript"]
@@ -104,6 +104,7 @@ depends-member:
 - ["6todoey27CategoryTableViewControllerC", "realm"]
 - ["6todoey27CategoryTableViewControllerC", "saveData"]
 - ["6todoey27CategoryTableViewControllerC", "tableView"]
+- ["6todoey27CategoryTableViewControllerC", "updateDataInRealm"]
 - ["6todoey27CategoryTableViewControllerC", "viewDidLoad"]
 - !private ["s10CollectionP", "count"]
 - !private ["s10CollectionP", "init"]
@@ -122,7 +123,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "addTextField"]
 - !private ["s28CustomDebugStringConvertibleP", "categories"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
-- !private ["s28CustomDebugStringConvertibleP", "dequeueReusableCell"]
 - !private ["s28CustomDebugStringConvertibleP", "destination"]
 - !private ["s28CustomDebugStringConvertibleP", "indexPathForSelectedRow"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -135,6 +135,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "realm"]
 - !private ["s28CustomDebugStringConvertibleP", "reloadData"]
 - !private ["s28CustomDebugStringConvertibleP", "row"]
+- !private ["s28CustomDebugStringConvertibleP", "rowHeight"]
 - !private ["s28CustomDebugStringConvertibleP", "saveData"]
 - !private ["s28CustomDebugStringConvertibleP", "selectedCategory"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
@@ -155,7 +156,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "addTextField"]
 - !private ["s23CustomStringConvertibleP", "categories"]
 - !private ["s23CustomStringConvertibleP", "count"]
-- !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
 - !private ["s23CustomStringConvertibleP", "destination"]
 - !private ["s23CustomStringConvertibleP", "indexPathForSelectedRow"]
 - !private ["s23CustomStringConvertibleP", "init"]
@@ -168,6 +168,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "realm"]
 - !private ["s23CustomStringConvertibleP", "reloadData"]
 - !private ["s23CustomStringConvertibleP", "row"]
+- !private ["s23CustomStringConvertibleP", "rowHeight"]
 - !private ["s23CustomStringConvertibleP", "saveData"]
 - !private ["s23CustomStringConvertibleP", "selectedCategory"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
@@ -192,7 +193,7 @@ depends-member:
 - !private ["s9EquatableP", "categories"]
 - !private ["s9EquatableP", "count"]
 - !private ["s9EquatableP", "default"]
-- !private ["s9EquatableP", "dequeueReusableCell"]
+- !private ["s9EquatableP", "delete"]
 - !private ["s9EquatableP", "destination"]
 - !private ["s9EquatableP", "indexPathForSelectedRow"]
 - ["s9EquatableP", "init"]
@@ -206,6 +207,7 @@ depends-member:
 - !private ["s9EquatableP", "realm"]
 - !private ["s9EquatableP", "reloadData"]
 - !private ["s9EquatableP", "row"]
+- !private ["s9EquatableP", "rowHeight"]
 - !private ["s9EquatableP", "saveData"]
 - !private ["s9EquatableP", "selectedCategory"]
 - !private ["s9EquatableP", "subscript"]
@@ -230,7 +232,6 @@ depends-member:
 - !private ["s8HashableP", "categories"]
 - !private ["s8HashableP", "count"]
 - !private ["s8HashableP", "default"]
-- !private ["s8HashableP", "dequeueReusableCell"]
 - !private ["s8HashableP", "destination"]
 - !private ["s8HashableP", "indexPathForSelectedRow"]
 - !private ["s8HashableP", "init"]
@@ -243,6 +244,7 @@ depends-member:
 - !private ["s8HashableP", "realm"]
 - !private ["s8HashableP", "reloadData"]
 - !private ["s8HashableP", "row"]
+- !private ["s8HashableP", "rowHeight"]
 - !private ["s8HashableP", "saveData"]
 - !private ["s8HashableP", "selectedCategory"]
 - !private ["s8HashableP", "subscript"]
@@ -270,7 +272,6 @@ depends-member:
 - !private ["So8NSCodingP", "addAction"]
 - !private ["So8NSCodingP", "addTextField"]
 - !private ["So8NSCodingP", "categories"]
-- !private ["So8NSCodingP", "dequeueReusableCell"]
 - !private ["So8NSCodingP", "indexPathForSelectedRow"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "loadData"]
@@ -280,6 +281,7 @@ depends-member:
 - !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "realm"]
 - !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "rowHeight"]
 - !private ["So8NSCodingP", "saveData"]
 - !private ["So8NSCodingP", "selectedCategory"]
 - !private ["So8NSCodingP", "tableView"]
@@ -325,7 +327,6 @@ depends-member:
 - !private ["So8NSObjectC", "addTextField"]
 - ["So8NSObjectC", "categories"]
 - !private ["So8NSObjectC", "count"]
-- !private ["So8NSObjectC", "dequeueReusableCell"]
 - !private ["So8NSObjectC", "destination"]
 - !private ["So8NSObjectC", "indexPathForSelectedRow"]
 - ["So8NSObjectC", "init"]
@@ -338,12 +339,14 @@ depends-member:
 - !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "realm"]
 - !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "rowHeight"]
 - ["So8NSObjectC", "saveData"]
 - !private ["So8NSObjectC", "selectedCategory"]
 - !private ["So8NSObjectC", "subscript"]
 - ["So8NSObjectC", "tableView"]
 - !private ["So8NSObjectC", "text"]
 - !private ["So8NSObjectC", "textLabel"]
+- ["So8NSObjectC", "updateDataInRealm"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "Category"]
 - ["So16NSObjectProtocolP", "Realm"]
@@ -355,7 +358,6 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "addTextField"]
 - !private ["So16NSObjectProtocolP", "categories"]
 - !private ["So16NSObjectProtocolP", "count"]
-- !private ["So16NSObjectProtocolP", "dequeueReusableCell"]
 - !private ["So16NSObjectProtocolP", "destination"]
 - !private ["So16NSObjectProtocolP", "indexPathForSelectedRow"]
 - !private ["So16NSObjectProtocolP", "init"]
@@ -367,6 +369,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "print"]
 - !private ["So16NSObjectProtocolP", "realm"]
 - !private ["So16NSObjectProtocolP", "reloadData"]
+- !private ["So16NSObjectProtocolP", "rowHeight"]
 - !private ["So16NSObjectProtocolP", "saveData"]
 - !private ["So16NSObjectProtocolP", "selectedCategory"]
 - !private ["So16NSObjectProtocolP", "subscript"]
@@ -387,6 +390,7 @@ depends-member:
 - !private ["s16RawRepresentableP", "alert"]
 - !private ["s16RawRepresentableP", "default"]
 - !private ["10RealmSwift0A0C", "add"]
+- !private ["10RealmSwift0A0C", "delete"]
 - ["10RealmSwift0A0C", "init"]
 - !private ["10RealmSwift0A0C", "objects"]
 - !private ["10RealmSwift0A0C", "write"]
@@ -407,6 +411,51 @@ depends-member:
 - !private ["s5SliceV", "name"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "Category"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", "Realm"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "UIAlertAction"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "UIAlertController"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "UITextField"]
+- ["12SwipeCellKit0a9TableViewB8DelegateP", ""]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "categories"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "init"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "loadData"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "performSegue"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "present"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "print"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "realm"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "saveData"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "selectedCategory"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "tableView"]
+- !private ["12SwipeCellKit0a9TableViewB8DelegateP", "viewDidLoad"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "Category"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "IndexPath"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "Int"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "Realm"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "Results"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "TodoListViewController"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "UIAlertAction"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "UIAlertController"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "UIStoryboardSegue"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "UITableView"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "UITableViewCell"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "UITextField"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", ""]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "addBtn"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "categories"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "deinit"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "init"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "loadData"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "performSegue"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "prepare"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "present"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "print"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "realm"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "saveData"]
+- !private ["6todoey018SwipeTableViewCellD10ControllerC", "selectedCategory"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "tableView"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "updateDataInRealm"]
+- ["6todoey018SwipeTableViewCellD10ControllerC", "viewDidLoad"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["10RealmSwift14ThreadConfinedP", "count"]
@@ -414,11 +463,11 @@ depends-member:
 - !private ["10RealmSwift14ThreadConfinedP", "name"]
 - !private ["10RealmSwift14ThreadConfinedP", "subscript"]
 - !private ["6todoey22TodoListViewControllerC", "selectedCategory"]
-- !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
 - !private ["So29UIAccessibilityIdentificationP", "indexPathForSelectedRow"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "placeholder"]
 - !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "rowHeight"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "textLabel"]
 - !private ["So13UIAlertActionC", "init"]
@@ -427,11 +476,11 @@ depends-member:
 - !private ["So17UIAlertControllerC", "addTextField"]
 - !private ["So17UIAlertControllerC", "init"]
 - !private ["SC22UIAlertControllerStyleO", "alert"]
-- !private ["So12UIAppearanceP", "dequeueReusableCell"]
 - !private ["So12UIAppearanceP", "indexPathForSelectedRow"]
 - !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "placeholder"]
 - !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "rowHeight"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "textLabel"]
 - !private ["So21UIAppearanceContainerP", "Category"]
@@ -443,7 +492,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "addAction"]
 - !private ["So21UIAppearanceContainerP", "addTextField"]
 - !private ["So21UIAppearanceContainerP", "categories"]
-- !private ["So21UIAppearanceContainerP", "dequeueReusableCell"]
 - !private ["So21UIAppearanceContainerP", "indexPathForSelectedRow"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "loadData"]
@@ -453,12 +501,14 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "realm"]
 - !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "rowHeight"]
 - !private ["So21UIAppearanceContainerP", "saveData"]
 - !private ["So21UIAppearanceContainerP", "selectedCategory"]
 - !private ["So21UIAppearanceContainerP", "tableView"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "textLabel"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So24UIBarPositioningDelegateP", "selectedCategory"]
 - !private ["So18UIContentContainerP", "Category"]
 - ["So18UIContentContainerP", "Realm"]
 - !private ["So18UIContentContainerP", "UIAlertAction"]
@@ -484,21 +534,21 @@ depends-member:
 - !private ["So9UIControlC", "init"]
 - !private ["So9UIControlC", "placeholder"]
 - !private ["So9UIControlC", "text"]
-- !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
 - !private ["So17UICoordinateSpaceP", "indexPathForSelectedRow"]
 - !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "placeholder"]
 - !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "rowHeight"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So17UICoordinateSpaceP", "textLabel"]
-- !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
 - !private ["So23UIDataSourceTranslatingP", "indexPathForSelectedRow"]
 - !private ["So23UIDataSourceTranslatingP", "reloadData"]
-- !private ["So13UIDynamicItemP", "dequeueReusableCell"]
+- !private ["So23UIDataSourceTranslatingP", "rowHeight"]
 - !private ["So13UIDynamicItemP", "indexPathForSelectedRow"]
 - !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "placeholder"]
 - !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "rowHeight"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "textLabel"]
 - !private ["So18UIFocusEnvironmentP", "Category"]
@@ -510,7 +560,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "addAction"]
 - !private ["So18UIFocusEnvironmentP", "addTextField"]
 - !private ["So18UIFocusEnvironmentP", "categories"]
-- !private ["So18UIFocusEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UIFocusEnvironmentP", "indexPathForSelectedRow"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "loadData"]
@@ -520,17 +569,18 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "realm"]
 - !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "rowHeight"]
 - !private ["So18UIFocusEnvironmentP", "saveData"]
 - !private ["So18UIFocusEnvironmentP", "selectedCategory"]
 - !private ["So18UIFocusEnvironmentP", "tableView"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "textLabel"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
-- !private ["So11UIFocusItemP", "dequeueReusableCell"]
 - !private ["So11UIFocusItemP", "indexPathForSelectedRow"]
 - !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "placeholder"]
 - !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "rowHeight"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "textLabel"]
 - !private ["So27UIGestureRecognizerDelegateP", "textLabel"]
@@ -547,7 +597,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "addAction"]
 - !private ["So30UIPasteConfigurationSupportingP", "addTextField"]
 - !private ["So30UIPasteConfigurationSupportingP", "categories"]
-- !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "indexPathForSelectedRow"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "loadData"]
@@ -557,6 +606,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "realm"]
 - !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "rowHeight"]
 - !private ["So30UIPasteConfigurationSupportingP", "saveData"]
 - !private ["So30UIPasteConfigurationSupportingP", "selectedCategory"]
 - !private ["So30UIPasteConfigurationSupportingP", "tableView"]
@@ -579,7 +629,6 @@ depends-member:
 - ["So11UIResponderC", "addBtn"]
 - !private ["So11UIResponderC", "addTextField"]
 - ["So11UIResponderC", "categories"]
-- !private ["So11UIResponderC", "dequeueReusableCell"]
 - !private ["So11UIResponderC", "indexPathForSelectedRow"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "loadData"]
@@ -590,11 +639,13 @@ depends-member:
 - !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "realm"]
 - !private ["So11UIResponderC", "reloadData"]
+- !private ["So11UIResponderC", "rowHeight"]
 - ["So11UIResponderC", "saveData"]
 - !private ["So11UIResponderC", "selectedCategory"]
 - ["So11UIResponderC", "tableView"]
 - !private ["So11UIResponderC", "text"]
 - !private ["So11UIResponderC", "textLabel"]
+- ["So11UIResponderC", "updateDataInRealm"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "Category"]
 - ["So30UIResponderStandardEditActionsP", "Realm"]
@@ -605,7 +656,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "addAction"]
 - !private ["So30UIResponderStandardEditActionsP", "addTextField"]
 - !private ["So30UIResponderStandardEditActionsP", "categories"]
-- !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
 - !private ["So30UIResponderStandardEditActionsP", "indexPathForSelectedRow"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "loadData"]
@@ -615,15 +665,16 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "realm"]
 - !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "rowHeight"]
 - !private ["So30UIResponderStandardEditActionsP", "saveData"]
 - !private ["So30UIResponderStandardEditActionsP", "selectedCategory"]
 - !private ["So30UIResponderStandardEditActionsP", "tableView"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "textLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
-- !private ["So12UIScrollViewC", "dequeueReusableCell"]
 - !private ["So12UIScrollViewC", "indexPathForSelectedRow"]
 - !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So12UIScrollViewC", "rowHeight"]
 - !private ["So20UIScrollViewDelegateP", "Category"]
 - ["So20UIScrollViewDelegateP", "Realm"]
 - !private ["So20UIScrollViewDelegateP", "UIAlertAction"]
@@ -641,12 +692,13 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "selectedCategory"]
 - !private ["So20UIScrollViewDelegateP", "tableView"]
 - !private ["So20UIScrollViewDelegateP", "viewDidLoad"]
+- !private ["So19UISearchBarDelegateP", "selectedCategory"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addAction"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "addTextField"]
-- !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "indexPathForSelectedRow"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "init"]
 - !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "rowHeight"]
 - !private ["So16UIStateRestoringP", "Category"]
 - ["So16UIStateRestoringP", "Realm"]
 - !private ["So16UIStateRestoringP", "UIAlertAction"]
@@ -667,9 +719,9 @@ depends-member:
 - !private ["So16UIStateRestoringP", "tableView"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So17UIStoryboardSegueC", "destination"]
-- !private ["So11UITableViewC", "dequeueReusableCell"]
 - !private ["So11UITableViewC", "indexPathForSelectedRow"]
 - !private ["So11UITableViewC", "reloadData"]
+- !private ["So11UITableViewC", "rowHeight"]
 - !private ["So15UITableViewCellC", "textLabel"]
 - ["So21UITableViewControllerC", "Category"]
 - ["So21UITableViewControllerC", "IndexPath"]
@@ -683,7 +735,6 @@ depends-member:
 - ["So21UITableViewControllerC", "UITableView"]
 - ["So21UITableViewControllerC", "UITableViewCell"]
 - !private ["So21UITableViewControllerC", "UITextField"]
-- ["So21UITableViewControllerC", ""]
 - ["So21UITableViewControllerC", "addBtn"]
 - ["So21UITableViewControllerC", "categories"]
 - ["So21UITableViewControllerC", "init"]
@@ -696,6 +747,7 @@ depends-member:
 - ["So21UITableViewControllerC", "saveData"]
 - !private ["So21UITableViewControllerC", "selectedCategory"]
 - ["So21UITableViewControllerC", "tableView"]
+- ["So21UITableViewControllerC", "updateDataInRealm"]
 - ["So21UITableViewControllerC", "viewDidLoad"]
 - !private ["So21UITableViewDataSourceP", "Category"]
 - ["So21UITableViewDataSourceP", "Realm"]
@@ -758,7 +810,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "addAction"]
 - !private ["So18UITraitEnvironmentP", "addTextField"]
 - !private ["So18UITraitEnvironmentP", "categories"]
-- !private ["So18UITraitEnvironmentP", "dequeueReusableCell"]
 - !private ["So18UITraitEnvironmentP", "indexPathForSelectedRow"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "loadData"]
@@ -768,17 +819,18 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "realm"]
 - !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "rowHeight"]
 - !private ["So18UITraitEnvironmentP", "saveData"]
 - !private ["So18UITraitEnvironmentP", "selectedCategory"]
 - !private ["So18UITraitEnvironmentP", "tableView"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "textLabel"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
-- !private ["So6UIViewC", "dequeueReusableCell"]
 - !private ["So6UIViewC", "indexPathForSelectedRow"]
 - !private ["So6UIViewC", "init"]
 - !private ["So6UIViewC", "placeholder"]
 - !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "rowHeight"]
 - !private ["So6UIViewC", "text"]
 - !private ["So6UIViewC", "textLabel"]
 - ["So16UIViewControllerC", "Category"]
@@ -807,12 +859,13 @@ depends-member:
 - ["So16UIViewControllerC", "saveData"]
 - !private ["So16UIViewControllerC", "selectedCategory"]
 - ["So16UIViewControllerC", "tableView"]
+- ["So16UIViewControllerC", "updateDataInRealm"]
 - ["So16UIViewControllerC", "viewDidLoad"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indexPathForSelectedRow"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "placeholder"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rowHeight"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "textLabel"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
@@ -830,7 +883,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addTextField"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "categories"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "dequeueReusableCell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForSelectedRow"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -842,6 +894,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "realm"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rowHeight"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "saveData"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedCategory"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
@@ -900,6 +953,8 @@ depends-nominal:
 - !private "s5SliceV"
 - !private "SS"
 - !private "s14StringProtocolP"
+- "12SwipeCellKit0a9TableViewB8DelegateP"
+- "6todoey018SwipeTableViewCellD10ControllerC"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
 - !private "10RealmSwift14ThreadConfinedP"
@@ -911,6 +966,7 @@ depends-nominal:
 - !private "SC22UIAlertControllerStyleO"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So24UIBarPositioningDelegateP"
 - "So18UIContentContainerP"
 - !private "So30UIContentSizeCategoryAdjustingP"
 - !private "So9UIControlC"
@@ -927,6 +983,7 @@ depends-nominal:
 - "So30UIResponderStandardEditActionsP"
 - !private "So12UIScrollViewC"
 - "So20UIScrollViewDelegateP"
+- !private "So19UISearchBarDelegateP"
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - !private "So17UIStoryboardSegueC"
@@ -957,6 +1014,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
@@ -970,6 +1028,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
@@ -1013,10 +1072,12 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -1027,4 +1088,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "2e0e6c9f620b4a9d3fef66d50032434e"
+interface-hash: "5142749eab2a2cb24f28c9d67fcebbf3"

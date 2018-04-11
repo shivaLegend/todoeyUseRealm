@@ -7,10 +7,10 @@ provides-member:
 - ["6todoey11AppDelegateC", ""]
 provides-dynamic-lookup:
 - "application"
-- "applicationWillTerminate"
 - "window"
 depends-top-level:
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
 - !private "Realm"
@@ -332,6 +332,7 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
@@ -345,6 +346,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMSchema.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectSchema.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
@@ -388,10 +390,12 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMConstants.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMObject.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Headers/RLMProperty.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphoneos/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -402,4 +406,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "ea51a8dd7a805c9146515acd30ecfbe3"
+interface-hash: "e939ed172d3fa7377cea4766b726a186"

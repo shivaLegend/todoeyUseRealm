@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["6todoey8CategoryC", ""]
 provides-dynamic-lookup:
+- "hexString"
 - "name"
 depends-top-level:
 - "Category"
@@ -16,40 +17,41 @@ depends-top-level:
 - "StringLiteralType"
 depends-member:
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", "List"]
-- ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
 - ["10RealmSwift28AssistedObjectiveCBridgeableP", ""]
+- ["10RealmSwift28AssistedObjectiveCBridgeableP", "init"]
 - ["s23BidirectionalCollectionP", "init"]
 - ["s7CVarArgP", "List"]
-- ["s7CVarArgP", "init"]
 - ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
 - ["6todoey8CategoryC", "Item"]
 - ["6todoey8CategoryC", "List"]
 - ["6todoey8CategoryC", "String"]
 - ["6todoey8CategoryC", "deinit"]
+- ["6todoey8CategoryC", "hexString"]
 - ["6todoey8CategoryC", "init"]
 - ["6todoey8CategoryC", "items"]
 - ["6todoey8CategoryC", "name"]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
 - ["s28CustomDebugStringConvertibleP", "List"]
-- ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - ["s17CustomReflectableP", "init"]
 - ["s23CustomStringConvertibleP", "List"]
-- ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
 - ["s9DecodableP", "init"]
 - ["s9EncodableP", "init"]
 - ["s9EquatableP", "List"]
-- ["s9EquatableP", "init"]
 - ["s9EquatableP", ""]
+- ["s9EquatableP", "init"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - ["s8HashableP", "List"]
-- ["s8HashableP", "init"]
 - ["s8HashableP", ""]
+- ["s8HashableP", "init"]
 - ["6todoey4ItemC", "deinit"]
 - ["s22LazyCollectionProtocolP", "init"]
 - ["s20LazySequenceProtocolP", "init"]
@@ -57,33 +59,29 @@ depends-member:
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
 - ["s17MutableCollectionP", "init"]
-- ["So8NSCodingP", "init"]
-- ["So9NSCopyingP", "init"]
 - ["So17NSFastEnumerationP", "init"]
-- ["So21NSItemProviderReadingP", "init"]
-- ["So21NSItemProviderWritingP", "init"]
-- ["So16NSMutableCopyingP", "init"]
 - ["So8NSObjectC", "Item"]
 - ["So8NSObjectC", "List"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "hexString"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "items"]
 - ["So8NSObjectC", "name"]
 - ["So16NSObjectProtocolP", "List"]
-- ["So16NSObjectProtocolP", "init"]
 - ["So16NSObjectProtocolP", ""]
-- ["So14NSSecureCodingP", "init"]
-- ["So8NSStringC", "init"]
+- ["So16NSObjectProtocolP", "init"]
 - ["10RealmSwift6ObjectC", "Item"]
 - ["10RealmSwift6ObjectC", "List"]
 - ["10RealmSwift6ObjectC", "String"]
+- ["10RealmSwift6ObjectC", ""]
+- ["10RealmSwift6ObjectC", "hexString"]
 - ["10RealmSwift6ObjectC", "init"]
 - ["10RealmSwift6ObjectC", "items"]
 - ["10RealmSwift6ObjectC", "name"]
-- ["10RealmSwift6ObjectC", ""]
 - ["So13RLMObjectBaseC", "Item"]
 - ["So13RLMObjectBaseC", "List"]
 - ["So13RLMObjectBaseC", "String"]
+- ["So13RLMObjectBaseC", "hexString"]
 - ["So13RLMObjectBaseC", "init"]
 - ["So13RLMObjectBaseC", "items"]
 - ["So13RLMObjectBaseC", "name"]
@@ -92,32 +90,25 @@ depends-member:
 - ["10RealmSwift0A10CollectionP", "init"]
 - ["10RealmSwift0A14CollectionBaseP", "init"]
 - ["10RealmSwift0A15CollectionValueP", "List"]
-- ["10RealmSwift0A15CollectionValueP", "init"]
 - ["10RealmSwift0A15CollectionValueP", ""]
+- ["10RealmSwift0A15CollectionValueP", "init"]
 - ["s8SequenceP", "init"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
 - ["s16TextOutputStreamP", "init"]
 - ["s20TextOutputStreamableP", "init"]
 - ["10RealmSwift14ThreadConfinedP", "List"]
-- ["10RealmSwift14ThreadConfinedP", "init"]
 - ["10RealmSwift14ThreadConfinedP", ""]
-- ["s23_BidirectionalIndexableP", "init"]
+- ["10RealmSwift14ThreadConfinedP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
-- ["s10_IndexableP", "init"]
-- ["s14_IndexableBaseP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "List"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- ["s17_MutableIndexableP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["s21_ObjectiveCBridgeableP", "init"]
-- ["s22_RandomAccessIndexableP", "init"]
-- ["s26_RangeReplaceableIndexableP", "init"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "10RealmSwift28AssistedObjectiveCBridgeableP"
@@ -144,16 +135,9 @@ depends-nominal:
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
 - "s17MutableCollectionP"
-- "So8NSCodingP"
-- "So9NSCopyingP"
 - "So17NSFastEnumerationP"
-- "So21NSItemProviderReadingP"
-- "So21NSItemProviderWritingP"
-- "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
-- "So14NSSecureCodingP"
-- "So8NSStringC"
 - "10RealmSwift6ObjectC"
 - "So13RLMObjectBaseC"
 - "s22RandomAccessCollectionP"
@@ -167,27 +151,21 @@ depends-nominal:
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "10RealmSwift14ThreadConfinedP"
-- "s23_BidirectionalIndexableP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
-- "s35_HasCustomAnyHashableRepresentationP"
-- "s10_IndexableP"
-- "s14_IndexableBaseP"
 - "10Foundation27_KeyValueCodingAndObservingP"
-- "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
-- "s22_RandomAccessIndexableP"
-- "s26_RangeReplaceableIndexableP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules/ChameleonFramework.swiftmodule/x86_64.swiftmodule"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/SwipeCellKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
@@ -199,7 +177,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon_.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-umbrella.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-umbrella.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
@@ -224,10 +205,20 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIImage+ChameleonPrivate.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+ChameleonPrivate.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIView+ChameleonPrivate.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UILabel+Chameleon.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIButton+Chameleon.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UINavigationController+Chameleon.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIViewController+Chameleon.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIColor+Chameleon.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/NSArray+Chameleon.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/Chameleon.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
@@ -239,12 +230,30 @@ depends-external:
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonEnums.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonMacros.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonConstants.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/UIAppearance+Swift.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Headers/ChameleonFramework-Swift.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Headers/SwipeCellKit-Swift.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/ChameleonFramework/ChameleonFramework.framework/Modules/module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
-interface-hash: "ed5e202e7fafff6085bf409a3dc932d3"
+- "/Users/nguyenductai/Desktop/todoey/Build/Products/Debug-iphonesimulator/SwipeCellKit/SwipeCellKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d069615d6bb1f82699ad40946c199ce4"

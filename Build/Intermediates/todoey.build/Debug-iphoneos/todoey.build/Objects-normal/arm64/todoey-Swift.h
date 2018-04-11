@@ -200,6 +200,7 @@ SWIFT_CLASS("_TtC6todoey11AppDelegate")
 SWIFT_CLASS("_TtC6todoey8Category")
 @interface Category : RealmSwiftObject
 @property (nonatomic, copy) NSString * _Nonnull name;
+@property (nonatomic, copy) NSString * _Nonnull hexString;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
@@ -207,12 +208,22 @@ SWIFT_CLASS("_TtC6todoey8Category")
 
 @class UITableView;
 @class UITableViewCell;
-@class UIStoryboardSegue;
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC6todoey32SwipeTableViewCellViewController")
+@interface SwipeTableViewCellViewController : UITableViewController
+- (void)viewDidLoad;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIStoryboardSegue;
+
 SWIFT_CLASS("_TtC6todoey27CategoryTableViewController")
-@interface CategoryTableViewController : UITableViewController
+@interface CategoryTableViewController : SwipeTableViewCellViewController
 - (void)viewDidLoad;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -235,11 +246,16 @@ SWIFT_CLASS("_TtC6todoey4Item")
 - (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@class UISearchBar;
 @class UIBarButtonItem;
 
 SWIFT_CLASS("_TtC6todoey22TodoListViewController")
-@interface TodoListViewController : UITableViewController
+@interface TodoListViewController : SwipeTableViewCellViewController
+@property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
@@ -249,7 +265,6 @@ SWIFT_CLASS("_TtC6todoey22TodoListViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UISearchBar;
 
 @interface TodoListViewController (SWIFT_EXTENSION(todoey)) <UISearchBarDelegate>
 - (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;

@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "65e28e0013b67d0272fb41dc49aee0d3"
+build_time: [1523182547, 654943000]
+inputs:
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/Extensions.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/Swipeable.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeAction.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeActionButton.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeActionsView.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeActionTransitioning.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeAnimator.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeExpanding.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeExpansionStyle.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeFeedback.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeTableOptions.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeTableViewCell+Accessibility.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeTableViewCell+Display.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeTableViewCell.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeTableViewCellDelegate.swift": [1523182542, 0]
+  "/Users/nguyenductai/Desktop/todoey/Pods/SwipeCellKit/Source/SwipeTransitionLayout.swift": [1523182542, 0]

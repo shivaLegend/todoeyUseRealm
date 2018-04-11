@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		TZilkhZV+ovonctFYmE3Wrf0R10=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		vPX+R5AL8aQH/E9r0cXmhIS6TLU=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		p9N9ZRsv5ylRieuLaU/Zzl5R5Ks=
@@ -18,7 +26,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/09c-o9-HjT-view-Guz-bS-RXP.nib</key>
 		<data>
-		1RIGPcCEY+xMF8rfdOV9+U6kKv4=
+		yuQppORx6su25IREJ3EqD/VyHy4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,23 +34,27 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/PNQ-6p-shL-view-y8a-do-CLO.nib</key>
 		<data>
-		Fs5BX1Ou/OXivNzu26OAh0RG5Xo=
+		dRuXhcdNxCbu2Oc5UqpniQFSWOw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-XaW-21-cEi.nib</key>
 		<data>
-		VpEb9IKbRWqcb+ZAlnrAxpaTqnY=
+		3zA1LmSUNofxWTwdUu+i6h2tcnc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-09c-o9-HjT.nib</key>
 		<data>
-		hrhDNseXhoch/0HbAh+lcvOHEH0=
+		NbrB3aewFd5y3i13bzO6LVFLZdE=
 		</data>
-		<key>DataModel.momd/DataModel.mom</key>
+		<key>Frameworks/ChameleonFramework.framework/ChameleonFramework</key>
 		<data>
-		avBHvIBgHKvzKhn4uuAh5nE+CLE=
+		dy0UBQvQoV26iPIfJ5lo1gNXH8c=
 		</data>
-		<key>DataModel.momd/VersionInfo.plist</key>
+		<key>Frameworks/ChameleonFramework.framework/Info.plist</key>
 		<data>
-		FwgYrRJwU7wY9bxwEYo2qRU8wrk=
+		sj+mTV9gbgRn5kRoWfd0y2LHizE=
+		</data>
+		<key>Frameworks/ChameleonFramework.framework/_CodeSignature/CodeResources</key>
+		<data>
+		A46C5XpiIdHmYDrC9OV9tAXR6Yk=
 		</data>
 		<key>Frameworks/Realm.framework/Info.plist</key>
 		<data>
@@ -50,7 +62,7 @@
 		</data>
 		<key>Frameworks/Realm.framework/Realm</key>
 		<data>
-		c/L0oeyov9AdFL9m4k4k+6bksjc=
+		6AoeDT0aux6o52sg6p36iiqa0OE=
 		</data>
 		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -62,19 +74,27 @@
 		</data>
 		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
 		<data>
-		WU40S15J3AIaLW8IJ0uHcLOZdNU=
+		B1Q6o6Qolk0keQAgrIry6DRg2pI=
 		</data>
 		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
 		<data>
 		qTf6G/54ZxiKy5lvkdam79GKlNU=
 		</data>
+		<key>Frameworks/SwipeCellKit.framework/Info.plist</key>
+		<data>
+		PhDfHDbRnO0k41MGHpLF/8GtyzQ=
+		</data>
+		<key>Frameworks/SwipeCellKit.framework/SwipeCellKit</key>
+		<data>
+		Ba+cJ4aSe85NqS56RlPEo7nMRCM=
+		</data>
+		<key>Frameworks/SwipeCellKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		eYGRTfLdf16YOeCClbfbuXgtl10=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		kNTktO/5G3xNevL0uYOXKp9Zdcg=
-		</data>
-		<key>Frameworks/libswiftCoreData.dylib</key>
-		<data>
-		8Y+wrfzMyoaobHes7pDpEYiDUck=
 		</data>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<data>
@@ -126,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		QqDInUzNmT7wc5CE0q2jZzUvBEo=
+		9V7mAMZI9Oh7jBZAb8/CqH1h6Yw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -139,6 +159,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TZilkhZV+ovonctFYmE3Wrf0R10=
+			</data>
+			<key>hash2</key>
+			<data>
+			PW6vCiBxGKHSmllW+vufqPu5AriJJrmXR+WhT6QNJz0=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vPX+R5AL8aQH/E9r0cXmhIS6TLU=
+			</data>
+			<key>hash2</key>
+			<data>
+			uOpa0KLBeWZ73xU5QoOyC8voZ/cobUlE5VuomD5IHk8=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
@@ -176,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1RIGPcCEY+xMF8rfdOV9+U6kKv4=
+			yuQppORx6su25IREJ3EqD/VyHy4=
 			</data>
 			<key>hash2</key>
 			<data>
-			e6ZMyabmTWsFpJ5Wgd9fLkmCUXxxH5YFotCf2QNymkQ=
+			awo0gmymCcIh5ryKhhKmcLoyJqQlptldBFusvo34FBw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -198,55 +240,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fs5BX1Ou/OXivNzu26OAh0RG5Xo=
+			dRuXhcdNxCbu2Oc5UqpniQFSWOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			NJyoSSDdNwwiQ/WJLDT7cVdwDgORR8N9HWR44HtaCzc=
+			QGnmnxUzyKu3EZZh4qJYxida7nCRfMf5eI39AlPIjoI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-XaW-21-cEi.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VpEb9IKbRWqcb+ZAlnrAxpaTqnY=
+			3zA1LmSUNofxWTwdUu+i6h2tcnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			lHuEKDvW5RUNTTDp8hBGMNIPgz05XVxjoLtX5VqXN1s=
+			m/FtqGoaBu+zj3Z23g6jN1VtSKrLM5i4nPU4xzGimwQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-09c-o9-HjT.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hrhDNseXhoch/0HbAh+lcvOHEH0=
+			NbrB3aewFd5y3i13bzO6LVFLZdE=
 			</data>
 			<key>hash2</key>
 			<data>
-			xRbqAqztQGZredBvhMqZsnjAHBnfgKQpJN3vYDP8fko=
+			K5FkbHz0wKAVXNcotYLidA5nNjc+1+K1EbKCJWaHewE=
 			</data>
 		</dict>
-		<key>DataModel.momd/DataModel.mom</key>
+		<key>Frameworks/ChameleonFramework.framework/ChameleonFramework</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			avBHvIBgHKvzKhn4uuAh5nE+CLE=
+			dy0UBQvQoV26iPIfJ5lo1gNXH8c=
 			</data>
 			<key>hash2</key>
 			<data>
-			pVrgeBbElydDo0gdQigobKfZ9IfE2tYrqsgYAGWaqTI=
+			2y7ToEo6ccFBL36XM/VFFLvTV7I78K9ws/oJ6PkwRAM=
 			</data>
 		</dict>
-		<key>DataModel.momd/VersionInfo.plist</key>
+		<key>Frameworks/ChameleonFramework.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FwgYrRJwU7wY9bxwEYo2qRU8wrk=
+			sj+mTV9gbgRn5kRoWfd0y2LHizE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+zKsXottv06S6LlvCxQQplQGIXHLEnjsg1xTc8Q8Pf0=
+			WJll1Bfv79R4NTS6IKwEvCpTvcem10i78iVDX79NCsU=
+			</data>
+		</dict>
+		<key>Frameworks/ChameleonFramework.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A46C5XpiIdHmYDrC9OV9tAXR6Yk=
+			</data>
+			<key>hash2</key>
+			<data>
+			fPntiN0NfF+U72z8QpC2zoKIMb5N1bU0RJHcwhgHNZE=
 			</data>
 		</dict>
 		<key>Frameworks/Realm.framework/Info.plist</key>
@@ -264,11 +317,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c/L0oeyov9AdFL9m4k4k+6bksjc=
+			6AoeDT0aux6o52sg6p36iiqa0OE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qa0iQRaE5rqrz9yPq7sUxrrsflEYIj72gX0Gf+zwTNI=
+			JcvRSt9Pa4ywVuMsVxb3zchw4jRG+HmFPj7fGO+wWp4=
 			</data>
 		</dict>
 		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
@@ -297,11 +350,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WU40S15J3AIaLW8IJ0uHcLOZdNU=
+			B1Q6o6Qolk0keQAgrIry6DRg2pI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ExdU0uq237+x4br/rCGvjZYmeVvsNT6aSchuVVCcDYM=
+			YMsslXZkND6rbMgSVTZuChQfRrNAIloSnqcOZSnnglg=
 			</data>
 		</dict>
 		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
@@ -315,6 +368,39 @@
 			xB7QAT8sjmlTGaOtMzwrGF11rIcbr9yUPkj4zO+TN2o=
 			</data>
 		</dict>
+		<key>Frameworks/SwipeCellKit.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PhDfHDbRnO0k41MGHpLF/8GtyzQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			GzbKtaIJsEMhs0OFlV4Frbdr+LIP3AxFBDGMbQ/J8QQ=
+			</data>
+		</dict>
+		<key>Frameworks/SwipeCellKit.framework/SwipeCellKit</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ba+cJ4aSe85NqS56RlPEo7nMRCM=
+			</data>
+			<key>hash2</key>
+			<data>
+			1INaS9cb3/2a3dd6cwyGRPe2MqT6wWhz3qgGdU/TcQE=
+			</data>
+		</dict>
+		<key>Frameworks/SwipeCellKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eYGRTfLdf16YOeCClbfbuXgtl10=
+			</data>
+			<key>hash2</key>
+			<data>
+			bGxZsq4JjLvX7UuMdy8eO/001evI7Lrtr85jwNO34UU=
+			</data>
+		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -324,17 +410,6 @@
 			<key>hash2</key>
 			<data>
 			owWDw3N53D4aQAQQsNZvRN8Xh1T5K3RzKLIMGpRjYCE=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftCoreData.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8Y+wrfzMyoaobHes7pDpEYiDUck=
-			</data>
-			<key>hash2</key>
-			<data>
-			QIOzsNLGqqNKWi0rWRqzhwnWida5XZedNdfivp2C2Ng=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>

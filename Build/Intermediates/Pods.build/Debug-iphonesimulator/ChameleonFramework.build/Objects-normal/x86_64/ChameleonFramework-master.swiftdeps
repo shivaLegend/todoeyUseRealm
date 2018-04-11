@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "6ce530a4917757c99d5ae8c61eb90c17"
+build_time: [1523351626, 178123000]
+inputs:
+  "/Users/nguyenductai/Desktop/todoey/Pods/ChameleonFramework/Pod/Classes/Swift/ChameleonShorthand.swift": [1523351601, 0]

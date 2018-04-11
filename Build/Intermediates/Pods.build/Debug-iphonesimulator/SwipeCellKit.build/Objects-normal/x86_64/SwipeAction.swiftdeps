@@ -1,0 +1,293 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwipeActionStyle"
+- "SwipeAction"
+- "ExpansionFulfillmentStyle"
+provides-nominal:
+- "12SwipeCellKit0A11ActionStyleO"
+- "12SwipeCellKit0A6ActionC"
+- "12SwipeCellKit25ExpansionFulfillmentStyleO"
+provides-member:
+- ["12SwipeCellKit0A11ActionStyleO", ""]
+- ["12SwipeCellKit0A6ActionC", ""]
+- ["12SwipeCellKit25ExpansionFulfillmentStyleO", ""]
+- ["12SwipeCellKit0A6ActionC", "hasBackgroundColor"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ExpansionFulfillmentStyle"
+- "IndexPath"
+- "Int"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+- "SwipeAction"
+- "SwipeActionStyle"
+- "SwipeActionTransitioning"
+- "UIColor"
+- "UIFont"
+- "UIImage"
+- "UIVisualEffect"
+- "Void"
+- !private "~="
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "backgroundEffect"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "completionHandler"]
+- !private ["s7CVarArgP", "handler"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "style"]
+- !private ["s7CVarArgP", "title"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundEffect"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "completionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "handler"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "style"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "clear"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "backgroundEffect"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "completionHandler"]
+- !private ["s23CustomStringConvertibleP", "handler"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "style"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "clear"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "clear"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "backgroundEffect"]
+- !private ["s9EquatableP", "clear"]
+- !private ["s9EquatableP", "completionHandler"]
+- !private ["s9EquatableP", "handler"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "style"]
+- !private ["s9EquatableP", "title"]
+- ["12SwipeCellKit25ExpansionFulfillmentStyleO", "__derived_enum_equals"]
+- ["12SwipeCellKit25ExpansionFulfillmentStyleO", "deinit"]
+- ["12SwipeCellKit25ExpansionFulfillmentStyleO", "delete"]
+- ["12SwipeCellKit25ExpansionFulfillmentStyleO", "hashValue"]
+- ["12SwipeCellKit25ExpansionFulfillmentStyleO", "reset"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "clear"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "backgroundEffect"]
+- !private ["s8HashableP", "clear"]
+- !private ["s8HashableP", "completionHandler"]
+- !private ["s8HashableP", "handler"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "style"]
+- !private ["s8HashableP", "title"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "ExpansionFulfillmentStyle"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "SwipeAction"]
+- ["So8NSObjectC", "SwipeActionStyle"]
+- ["So8NSObjectC", "SwipeActionTransitioning"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIVisualEffect"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "backgroundEffect"]
+- !private ["So8NSObjectC", "clear"]
+- ["So8NSObjectC", "completionHandler"]
+- ["So8NSObjectC", "font"]
+- ["So8NSObjectC", "fulfill"]
+- ["So8NSObjectC", "handler"]
+- ["So8NSObjectC", "hasBackgroundColor"]
+- ["So8NSObjectC", "hidesWhenSelected"]
+- ["So8NSObjectC", "highlightedBackgroundColor"]
+- ["So8NSObjectC", "highlightedImage"]
+- ["So8NSObjectC", "highlightedTextColor"]
+- ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "style"]
+- ["So8NSObjectC", "textColor"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "transitionDelegate"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "backgroundEffect"]
+- !private ["So16NSObjectProtocolP", "clear"]
+- !private ["So16NSObjectProtocolP", "completionHandler"]
+- !private ["So16NSObjectProtocolP", "handler"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "style"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["Sq", "clear"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s12StaticStringV", "init"]
+- ["12SwipeCellKit0A6ActionC", "Bool"]
+- ["12SwipeCellKit0A6ActionC", "ExpansionFulfillmentStyle"]
+- ["12SwipeCellKit0A6ActionC", "IndexPath"]
+- ["12SwipeCellKit0A6ActionC", "String"]
+- ["12SwipeCellKit0A6ActionC", "SwipeAction"]
+- ["12SwipeCellKit0A6ActionC", "SwipeActionStyle"]
+- ["12SwipeCellKit0A6ActionC", "SwipeActionTransitioning"]
+- ["12SwipeCellKit0A6ActionC", "UIColor"]
+- ["12SwipeCellKit0A6ActionC", "UIFont"]
+- ["12SwipeCellKit0A6ActionC", "UIImage"]
+- ["12SwipeCellKit0A6ActionC", "UIVisualEffect"]
+- ["12SwipeCellKit0A6ActionC", "Void"]
+- ["12SwipeCellKit0A6ActionC", "backgroundColor"]
+- ["12SwipeCellKit0A6ActionC", "backgroundEffect"]
+- ["12SwipeCellKit0A6ActionC", "completionHandler"]
+- ["12SwipeCellKit0A6ActionC", "deinit"]
+- ["12SwipeCellKit0A6ActionC", "font"]
+- ["12SwipeCellKit0A6ActionC", "fulfill"]
+- ["12SwipeCellKit0A6ActionC", "handler"]
+- ["12SwipeCellKit0A6ActionC", "hasBackgroundColor"]
+- ["12SwipeCellKit0A6ActionC", "hidesWhenSelected"]
+- ["12SwipeCellKit0A6ActionC", "highlightedBackgroundColor"]
+- ["12SwipeCellKit0A6ActionC", "highlightedImage"]
+- ["12SwipeCellKit0A6ActionC", "highlightedTextColor"]
+- ["12SwipeCellKit0A6ActionC", "identifier"]
+- ["12SwipeCellKit0A6ActionC", "image"]
+- ["12SwipeCellKit0A6ActionC", "init"]
+- ["12SwipeCellKit0A6ActionC", "style"]
+- ["12SwipeCellKit0A6ActionC", "textColor"]
+- ["12SwipeCellKit0A6ActionC", "title"]
+- ["12SwipeCellKit0A6ActionC", "transitionDelegate"]
+- ["12SwipeCellKit0A11ActionStyleO", "RawValue"]
+- ["12SwipeCellKit0A11ActionStyleO", "_Default_RawValue"]
+- ["12SwipeCellKit0A11ActionStyleO", "default"]
+- ["12SwipeCellKit0A11ActionStyleO", "deinit"]
+- ["12SwipeCellKit0A11ActionStyleO", "destructive"]
+- ["12SwipeCellKit0A11ActionStyleO", "hashValue"]
+- ["12SwipeCellKit0A11ActionStyleO", "init"]
+- ["12SwipeCellKit0A11ActionStyleO", "rawValue"]
+- !private ["So7UIColorC", "clear"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundEffect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "completionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "style"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "clear"]
+- !private ["s26_OptionalNilComparisonTypeV", "clear"]
+depends-nominal:
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "12SwipeCellKit25ExpansionFulfillmentStyleO"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- "s16RawRepresentableP"
+- !private "s12StaticStringV"
+- "12SwipeCellKit0A6ActionC"
+- "12SwipeCellKit0A11ActionStyleO"
+- !private "So7UIColorC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nguyenductai/Desktop/todoey/Pods/Target Support Files/SwipeCellKit/SwipeCellKit-umbrella.h"
+- "/Users/nguyenductai/Desktop/todoey/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwipeCellKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "1b575fcf73a75d903ff5c726cb40142a"
